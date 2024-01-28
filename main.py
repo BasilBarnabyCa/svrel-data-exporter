@@ -3,9 +3,14 @@ import sqlalchemy
 from dotenv import load_dotenv
 from sqlalchemy.exc import SQLAlchemyError
 import os
+import json
 
 # Load environment variables from .env file
 load_dotenv()
+
+# Load table configurations from config.json
+with open('config.json') as config_file:
+    tables_config = json.load(config_file)
 
 # Database connection parameters from environment variables
 db_config = {
@@ -16,42 +21,51 @@ db_config = {
     "port": os.getenv("DB_PORT", "3306")  # Default MySQL port if not specified
 }
 
-# Checking if Exports folder and sub folders exists and creating if it doesn't
-if not os.path.exists("exports"):
-    os.mkdir("exports")
-
-if not os.path.exists("exports/csvs"):
-    os.mkdir("exports/csvs")
-
-if not os.path.exists("exports/inserts"):
-    os.mkdir("exports/inserts")
-
 # SQLAlchemy engine for MySQL
 engine = sqlalchemy.create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
-
-# SQL query to select data from the table
-sql_query = "SELECT * FROM your_table"
 
 # Specify the chunk size
 chunk_size = 10000  # Adjust based on your memory capacity and table size
 
-# Process in chunks
-for i, chunk_df in enumerate(pd.read_sql(sql_query, engine, chunksize=chunk_size)):
-    # Rename multiple columns as needed
-    chunk_df.rename(columns={
-        'old_column_name1': 'new_column_name1',
-        'old_column_name2': 'new_column_name2',
-        # Add more columns as needed
-    }, inplace=True)
+# Function to process each table
+def process_table(table_name, config):
+	if not config.get("enabled", False):
+		return
 
-    # Exclude columns as needed
-    chunk_df.drop(columns=['exclude_column1', 'exclude_column2'], inplace=True)
+	print(f"Processing {table_name}...")
+	for i, chunk_df in enumerate(pd.read_sql(config["sql_query"], engine, chunksize=chunk_size)):
+		# Exclude columns
+		if "exclude_columns" in config:
+			chunk_df.drop(columns=config["exclude_columns"], inplace=True)
 
-    # Title case a specific column if needed
-    chunk_df['column_to_title_case'] = chunk_df['column_to_title_case'].str.title()
+		# Convert column names to title case if enabled
+		if config.get("title_case_column_names_enabled", True):  # Check if title casing for column names is enabled
+			chunk_df.columns = [col.title() for col in chunk_df.columns]
 
-    # Export the chunk to a CSV file
-    # If it's the first chunk, write header, otherwise append without header
-    chunk_df.to_csv(f'exported_table_chunk_{i}.csv', index=False, header=i==0)
+		# Convert specified columns to title case
+		for col in config.get("title_case_columns", []):
+			if col in chunk_df.columns:  # Check if the column exists
+				chunk_df[col] = chunk_df[col].astype(str).str.title()  # Apply title case
+			else:
+				print(f"Warning: Column '{col}' not found in '{table_name}'. Skipping title casing for this column.")
 
-    print(f"Chunk {i} exported successfully.")
+		# Rename columns
+		if "rename_columns" in config:
+			chunk_df.rename(columns=config["rename_columns"], inplace=True)
+
+		# Export to CSV
+		chunk_df.to_csv(f'exports/csvs/{table_name}_chunk_{i}.csv', index=False, header=i==0)
+		print(f"Exported chunk {i} of {table_name}")
+
+# Check and create export directories
+export_dirs = ["exports", "exports/csvs", "exports/inserts"]
+for dir_path in export_dirs:
+    if not os.path.exists(dir_path):
+        os.mkdir(dir_path)
+
+# Process each table according to its configuration
+for table, config in tables_config.items():
+    try:
+        process_table(table, config)
+    except SQLAlchemyError as e:
+        print(f"Failed to process {table}: {e}")

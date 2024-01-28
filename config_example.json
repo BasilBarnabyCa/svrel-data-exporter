@@ -1,0 +1,16 @@
+{
+    "table1": {
+        "enabled": true,
+        "sql_query": "SELECT * FROM table1",
+        "rename_columns": {"old_name1": "new_name1"},
+        "exclude_columns": ["exclude1"],
+        "title_case_columns": ["name_column"]
+    },
+    "table2": {
+        "enabled": false,
+        "sql_query": "SELECT * FROM table2",
+        "rename_columns": {"old_name2": "new_name2"},
+        "exclude_columns": ["exclude2"],
+        "title_case_columns": []
+    }
+}

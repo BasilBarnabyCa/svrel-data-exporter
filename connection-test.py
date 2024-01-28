@@ -1,4 +1,5 @@
 import sqlalchemy
+import os
 from dotenv import load_dotenv
 from sqlalchemy.exc import SQLAlchemyError
 

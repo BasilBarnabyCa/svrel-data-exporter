@@ -2,6 +2,7 @@
 
 # local env files
 .env
+config.json
 /env
 /data
 /exports
