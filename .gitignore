@@ -4,5 +4,5 @@
 .env
 /env
 /data
-/export
+/exports
 __pycache__/
