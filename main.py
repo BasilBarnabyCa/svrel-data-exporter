@@ -1,6 +1,7 @@
 import pandas as pd
 import sqlalchemy
 from dotenv import load_dotenv
+from sqlalchemy.exc import SQLAlchemyError
 import os
 
 # Load environment variables from .env file
@@ -27,16 +28,6 @@ if not os.path.exists("exports/inserts"):
 
 # SQLAlchemy engine for MySQL
 engine = sqlalchemy.create_engine(f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}")
-
-# Connectivity Test
-try:
-    with engine.connect() as connection:
-        result = connection.execute("SELECT 1")
-        # If the above line executes without error, connection is successful
-        print("Database connection successful.")
-except SQLAlchemyError as e:
-    print(f"Database connection failed: {e}")
-    exit()  # Exit the script if connection fails
 
 # SQL query to select data from the table
 sql_query = "SELECT * FROM your_table"
