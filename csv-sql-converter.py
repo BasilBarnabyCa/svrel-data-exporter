@@ -12,17 +12,24 @@ if not os.path.exists(sql_dir):
 
 # Function to convert a DataFrame to a list of SQL INSERT statements
 def dataframe_to_sql_inserts(df, table_name):
-    # Start the INSERT statement
-    insert_prefix = f"INSERT INTO {table_name} ({', '.join(df.columns)}) VALUES\n"
+    # Start the INSERT statement with column names surrounded by backticks
+    insert_prefix = f"INSERT INTO {table_name} (`{'`, `'.join(df.columns)}`) VALUES\n"
     sql_inserts = []
 
     # Accumulate values for each row in a list
     values_list = []
     for index, row in df.iterrows():
-        values = ", ".join(
-            ["'{}'".format(str(val).replace("'", "''")) for val in row.values]
-        )
-        values_list.append(f"({values})")
+        values = []
+        for val in row.values:
+            # Convert NaN values or empty strings to SQL NULL
+            if pd.isna(val) or val == '':
+                values.append('NULL')
+            else:
+                # Properly escape and quote other values
+                val_str = str(val).replace("'", "''")
+                values.append(f"'{val_str}'")
+        values_str = ", ".join(values)
+        values_list.append(f"({values_str})")
 
     # Combine accumulated values into a single INSERT statement
     if values_list:  # Check if there are any rows to insert

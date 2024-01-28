@@ -34,6 +34,10 @@ def process_table(table_name, config):
 
 	print(f"Processing {table_name}...")
 	for i, chunk_df in enumerate(pd.read_sql(config["sql_query"], engine, chunksize=chunk_size)):
+
+		# Replace NaN values with None (which becomes NULL in the CSV)
+		chunk_df = chunk_df.where(pd.notnull(chunk_df), None)
+
 		# Exclude columns
 		if "exclude_columns" in config:
 			chunk_df.drop(columns=config["exclude_columns"], inplace=True)
