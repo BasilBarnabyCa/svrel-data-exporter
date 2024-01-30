@@ -1,0 +1,35 @@
+{
+	"Breeders": {
+	  "enabled": true,
+	  "title_case_column_names_enabled": false,
+	  "sql_query": "SELECT * FROM breeders",
+	  "enum_columns": ["type_id"],
+	  "exclude_columns": [
+		"address1",
+		"address2",
+		"city_town",
+		"state_id",
+		"zipcode_postal",
+		"country_id",
+		"phone1",
+		"phone2",
+		"email",
+		"image_path",
+		"image_mime_type",
+		"image_extension",
+		"comment",
+		"user_id",
+		"updated_at"
+	  ],
+	  "title_case_columns": ["name"],
+	  "rename_columns": {
+		"id": "Id",
+		"name": "Name",
+		"type_id": "Type",
+		"active": "IsActive",
+		"enabled": "IsEnabled",
+		"created_at": "CreatedAt"
+	  }
+	}
+  }
+  

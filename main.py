@@ -1,16 +1,22 @@
 import pandas as pd
 import sqlalchemy
-from dotenv import load_dotenv
 from sqlalchemy.exc import SQLAlchemyError
 import os
 import json
+from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
 
-# Load table configurations from config.json
-with open('config.json') as config_file:
-    tables_config = json.load(config_file)
+# Ensure export directories exist
+export_dirs = ["exports", "exports/csvs", "exports/inserts"]
+for dir_path in export_dirs:
+    if not os.path.exists(dir_path):
+        os.makedirs(dir_path)
+
+# Ensure the config directory exists
+if not os.path.exists("config"):
+    os.makedirs("config")
 
 # Database connection parameters from environment variables
 db_config = {
@@ -28,48 +34,56 @@ engine = sqlalchemy.create_engine(f"mysql+pymysql://{db_config['user']}:{db_conf
 chunk_size = 10000  # Adjust based on your memory capacity and table size
 
 # Function to process each table
-def process_table(table_name, config):
-	if not config.get("enabled", False):
-		return
+def process_table(table_name, config, export_subdir):
+    if not config.get("enabled", False):
+        return
 
-	print(f"Processing {table_name}...")
-	for i, chunk_df in enumerate(pd.read_sql(config["sql_query"], engine, chunksize=chunk_size)):
+    print(f"Processing {table_name}...")
+    for i, chunk_df in enumerate(pd.read_sql(config["sql_query"], engine, chunksize=chunk_size)):
+        # Replace NaN values with None (which becomes NULL in the CSV)
+        chunk_df = chunk_df.where(pd.notnull(chunk_df), None)
 
-		# Replace NaN values with None (which becomes NULL in the CSV)
-		chunk_df = chunk_df.where(pd.notnull(chunk_df), None)
+        # Exclude columns
+        if "exclude_columns" in config:
+            chunk_df.drop(columns=config["exclude_columns"], inplace=True)
 
-		# Exclude columns
-		if "exclude_columns" in config:
-			chunk_df.drop(columns=config["exclude_columns"], inplace=True)
+        # Convert column names to title case if enabled
+        if config.get("title_case_column_names_enabled", True):  # Check if title casing for column names is enabled
+            chunk_df.columns = [col.title() for col in chunk_df.columns]
 
-		# Convert column names to title case if enabled
-		if config.get("title_case_column_names_enabled", True):  # Check if title casing for column names is enabled
-			chunk_df.columns = [col.title() for col in chunk_df.columns]
+        # Convert specified columns to title case
+        for col in config.get("title_case_columns", []):
+            if col in chunk_df.columns:  # Check if the column exists
+                chunk_df[col] = chunk_df[col].astype(str).str.title()  # Apply title case
+            else:
+                print(f"Warning: Column '{col}' not found in '{table_name}'. Skipping title casing for this column.")
 
-		# Convert specified columns to title case
-		for col in config.get("title_case_columns", []):
-			if col in chunk_df.columns:  # Check if the column exists
-				chunk_df[col] = chunk_df[col].astype(str).str.title()  # Apply title case
-			else:
-				print(f"Warning: Column '{col}' not found in '{table_name}'. Skipping title casing for this column.")
+        # Rename columns
+        if "rename_columns" in config:
+            chunk_df.rename(columns=config["rename_columns"], inplace=True)
 
-		# Rename columns
-		if "rename_columns" in config:
-			chunk_df.rename(columns=config["rename_columns"], inplace=True)
+        # Export to CSV in the specific subdirectory for this config
+        csv_export_path = os.path.join('exports/csvs', export_subdir, f'{table_name}_chunk_{i}.csv')
+        chunk_df.to_csv(csv_export_path, index=False, header=i==0)
+        print(f"Exported chunk {i} of {table_name} to {csv_export_path}")
 
-		# Export to CSV
-		chunk_df.to_csv(f'exports/csvs/{table_name}_chunk_{i}.csv', index=False, header=i==0)
-		print(f"Exported chunk {i} of {table_name}")
+# Loop through all config files in the 'config' directory
+config_dir = "config"
+for config_file in os.listdir(config_dir):
+    if config_file.endswith(".json"):
+        config_path = os.path.join(config_dir, config_file)
+        with open(config_path) as file:
+            tables_config = json.load(file)
 
-# Check and create export directories
-export_dirs = ["exports", "exports/csvs", "exports/inserts"]
-for dir_path in export_dirs:
-    if not os.path.exists(dir_path):
-        os.mkdir(dir_path)
+        # Create a subdirectory for exports based on the config file name (without extension)
+        export_subdir = os.path.splitext(config_file)[0]
+        export_subdir_path = os.path.join('exports/csvs', export_subdir)
+        if not os.path.exists(export_subdir_path):
+            os.makedirs(export_subdir_path)
 
-# Process each table according to its configuration
-for table, config in tables_config.items():
-    try:
-        process_table(table, config)
-    except SQLAlchemyError as e:
-        print(f"Failed to process {table}: {e}")
+        # Process each table according to its configuration
+        for table, config in tables_config.items():
+            try:
+                process_table(table, config, export_subdir)
+            except SQLAlchemyError as e:
+                print(f"Failed to process {table}: {e}")

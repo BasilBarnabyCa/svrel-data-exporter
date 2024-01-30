@@ -1,0 +1,15 @@
+Id,Name,Code,Description,IsEnabled,CreatedAt
+1,Bay,B,,1,2020-07-20 06:12:02
+2,Bay or Brown,B/BR,,1,2020-07-20 06:12:02
+3,Bay or Gray,B/GR,,1,2020-07-20 06:12:02
+4,Brown,BR,,1,2020-07-20 06:12:02
+5,Dark Brown,DKB,,1,2020-07-20 06:12:02
+6,Light Brown,LTB,,1,2020-07-20 06:12:02
+7,Dark Brown or Brown,DKB/BR,,1,2020-07-20 06:12:02
+8,Chestnut,CH,,1,2020-07-20 06:12:02
+9,Gray,GR,,1,2020-07-20 06:12:02
+10,Dark Gray,DKGR,,1,2020-07-20 06:12:02
+11,Roan,RN,,1,2020-07-20 06:12:02
+12,Gray or Roan,GR/RN,,1,2020-07-20 06:12:02
+13,Roan or Chestnut,RN/CH,,1,2020-07-20 06:12:02
+14,Uknown,UNK,,1,2020-07-20 06:12:02

@@ -5,5 +5,5 @@
 config.json
 /env
 /data
-/exports
+# /exports
 __pycache__/
