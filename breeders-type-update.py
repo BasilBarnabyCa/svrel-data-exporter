@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Step 1: Load the CSV file
-file_path = "exports/csvs/breeders_chunk_0.csv"  # Update this with the actual path to your CSV file
+file_path = "exports/csvs/personnel-config/Breeders_chunk_0.csv"  # Update this with the actual path to your CSV file
 df = pd.read_csv(file_path)
 
 
@@ -30,7 +30,7 @@ def determine_type(name):
 df["Type"] = df["Name"].apply(determine_type)
 
 # Step 3: Save the updated DataFrame to a new CSV file
-output_path = "exports/csvs/breeders_chunk_0.csv"  # Update this with your desired output path
+output_path = "exports/csvs/personnel-config/Breeders_chunk_0.csv"  # Update this with your desired output path
 df.to_csv(output_path, index=False)
 
 print(f"Updated DataFrame has been saved to: {output_path}")
