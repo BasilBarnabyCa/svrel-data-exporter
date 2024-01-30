@@ -3,6 +3,8 @@ import os
 import json
 import subprocess
 import sqlalchemy
+from urllib.parse import quote_plus
+from sqlalchemy import create_engine, text
 from sqlalchemy.exc import SQLAlchemyError
 from dotenv import load_dotenv
 
@@ -35,8 +37,8 @@ engine_processing = sqlalchemy.create_engine(f"mysql+pymysql://{db_config_proces
 db_config_sql_execution = {
     "database": os.getenv("SQL_EXECUTION_DB_DATABASE"),
     "user": os.getenv("SQL_EXECUTION_DB_USERNAME"),
-    "password": os.getenv("SQL_EXECUTION_DB_PASSWORD"),
-    "host": os.getenv("SQL_EXECUTION_DB_HOST"),
+   	"password": quote_plus(os.getenv("SQL_EXECUTION_DB_PASSWORD")),
+    "host": os.getenv("SQL_EXECUTION_DB_HOST", "127.0.0.1"),
     "port": os.getenv("SQL_EXECUTION_DB_PORT", "3306")  # Default MySQL port if not specified
 }
 
@@ -44,28 +46,39 @@ db_config_sql_execution = {
 engine_sql_execution = sqlalchemy.create_engine(f"mysql+pymysql://{db_config_sql_execution['user']}:{db_config_sql_execution['password']}@{db_config_sql_execution['host']}:{db_config_sql_execution['port']}/{db_config_sql_execution['database']}")
 
 # Function to execute SQL scripts in a given folder
-def execute_sql_scripts(folder_path):
+def execute_sql_scripts(folder_path, engine):
     try:
-        with engine.begin() as conn:
+        with engine.connect() as conn:
             # Disable foreign key checks
-            conn.execute("SET FOREIGN_KEY_CHECKS=0;")
+            conn.execute(text("SET FOREIGN_KEY_CHECKS=0;"))
             print("Foreign key checks disabled.")
 
             # Recursively execute SQL scripts in all subfolders
             for root, dirs, files in os.walk(folder_path):
                 for file in files:
                     if file.endswith('.sql'):
+						# Derive the table name from the file name (assuming a naming convention)
+                        table_name = file.replace('.sql', '').replace('_inserts', '')
+
+                        # Truncate the table associated with this SQL file
+                        print(f"Truncating table: {table_name}")
+                        conn.execute(text(f"TRUNCATE TABLE {table_name};"))
+
+						# Execute the SQL script for the truncated table
                         file_path = os.path.join(root, file)
                         with open(file_path, 'r') as sql_file:
                             sql_script = sql_file.read()
                             try:
-                                conn.execute(text(sql_script))
+                                # Execute each statement in the SQL script
+                                for statement in sql_script.strip().split(';'):
+                                    if statement:
+                                        conn.execute(text(statement))
                                 print(f"Executed script: {file_path}")
                             except SQLAlchemyError as e:
                                 print(f"Error executing {file_path}: {e}")
 
             # Re-enable foreign key checks
-            conn.execute("SET FOREIGN_KEY_CHECKS=1;")
+            conn.execute(text("SET FOREIGN_KEY_CHECKS=1;"))
             print("Foreign key checks enabled.")
 
     except SQLAlchemyError as e:
@@ -145,10 +158,6 @@ for config_file in os.listdir(config_dir):
             except SQLAlchemyError as e:
                 print(f"Failed to process {table}: {e}")
 
-# Execute SQL scripts from the 'exports/inserts' folder after data processing
-sql_scripts_folder = 'exports/inserts'
-# execute_sql_scripts(sql_scripts_folder)
-
 # List of scripts you want to execute
 scripts = [
     'clean-up.py',
@@ -171,3 +180,7 @@ for script in scripts:
 
         # Optionally, print the standard error output
         print(e.stderr)
+
+# Execute SQL scripts from the 'exports/inserts' folder after data processing
+sql_scripts_folder = 'exports/inserts'
+execute_sql_scripts(sql_scripts_folder, engine_sql_execution)
