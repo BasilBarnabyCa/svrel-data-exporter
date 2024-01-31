@@ -1,0 +1,39 @@
+{
+  "Horses": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horses",
+    "enum_columns": [],
+    "exclude_columns": [
+      "was_unregistered",
+      "user_id",
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "jrc_imported_id": "JrcId",
+      "name": "Name",
+      "microchip": "Microchip",
+      "imported_microchip": "ImportedMicrochip",
+      "breeder_id": "BreederId",
+      "owner_id": "OwnerId",
+      "trainer_id": "TrainerId",
+      "sire_id": "SireId",
+      "dam_id": "DamId",
+      "tattooed": "IsTattooed",
+      "imported": "IsImported",
+      "registered": "IsRegistered",
+      "country_bred_id": "Email",
+      "gender_id": "Gender",
+      "color_id": "ColorId",
+      "turned_out": "IsTurnedOut",
+      "enabled": "IsEnabled",
+      "foaled_at": "CreatedAt",
+      "registered_at": "RegisteredAt",
+      "last_raced_at": "LastRacedAt",
+      "last_worked_out_at": "LastWorkedOutAt",
+      "created_at": "CreatedAt"
+    }
+  }
+}
