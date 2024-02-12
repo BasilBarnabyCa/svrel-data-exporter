@@ -476,10 +476,10 @@
       "created_at": "CreatedAt"
     }
   },
-  "SaddleColors": {
+  "SaddleCloths": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM saddle_colors",
+    "sql_query": "SELECT * FROM saddle_cloths",
     "enum_columns": [],
     "exclude_columns": [
       "user_id",
@@ -499,7 +499,7 @@
   "IncidentTypes": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM incident_types",
+    "sql_query": "SELECT * FROM crm_incident_types",
     "enum_columns": [],
     "exclude_columns": [
       "user_id",
@@ -518,7 +518,7 @@
   "IncidentDocumentTypes": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM incident_document_types",
+    "sql_query": "SELECT * FROM crm_incident_document_types",
     "enum_columns": [],
     "exclude_columns": [
       "user_id",

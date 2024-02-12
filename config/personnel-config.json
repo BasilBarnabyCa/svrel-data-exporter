@@ -125,7 +125,7 @@
 		"user_id",
 		"updated_at"
 	  ],
-	  "title_case_columns": ["name"],
+	  "title_case_columns": [],
 	  "rename_columns": {
 		"id": "Id",
 		"first_name": "FirstName",
