@@ -53,6 +53,33 @@
       "created_at": "CreatedAt"
     }
   },
+  "Sites": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM sites",
+    "enum_columns": [],
+    "exclude_columns": [
+      "user_id",
+      "updated_at",
+	  "description"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "address1": "Address1",
+      "address2": "Address2",
+      "city_town": "CityTown",
+      "state_id": "StateId",
+      "zipcode_postal": "ZipcodePostal",
+      "country_id": "CountryId",
+      "phone1": "Phone1",
+      "phone2": "Phone2",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
   "Zones": {
     "enabled": true,
     "title_case_column_names_enabled": false,

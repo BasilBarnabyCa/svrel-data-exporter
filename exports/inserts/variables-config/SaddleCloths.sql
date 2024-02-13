@@ -1,0 +1,17 @@
+INSERT INTO SaddleCloths (`Id`, `Name`, `PostPosition`, `CssBgColor`, `CssFontColor`, `IsEnabled`, `CreatedAt`) VALUES
+('1', 'Red', '1', 'red', 'white', '1', '2022-05-28 07:30:17'),
+('2', 'White', '2', 'white', 'black', '1', '2022-05-28 07:30:33'),
+('3', 'Blue', '3', 'blue', 'white', '1', '2022-05-28 07:30:44'),
+('4', 'Gold', '4', 'gold', 'black', '1', '2022-05-28 07:31:06'),
+('5', 'Green', '5', 'green', 'white', '1', '2022-05-28 07:31:22'),
+('6', 'Black', '6', 'black', 'gold', '1', '2022-05-28 07:31:42'),
+('7', 'Orange', '7', 'orange', 'black', '1', '2022-05-28 07:32:01'),
+('8', 'Pink', '8', 'pink', 'black', '1', '2022-05-28 07:32:20'),
+('9', 'Turquoise', '9', 'turquoise', 'black', '1', '2022-05-28 07:32:40'),
+('10', 'Purple', '10', 'purple', 'white', '1', '2022-05-28 07:33:10'),
+('11', 'Light Gray', '11', 'lightgray', 'red', '1', '2022-05-28 07:33:59'),
+('12', 'Lime', '12', 'lime', 'black', '1', '2022-05-28 07:34:14'),
+('13', 'Brown', '13', 'brown', 'white', '1', '2022-05-28 07:34:25'),
+('14', 'Maroon', '14', 'maroon', 'yellow', '1', '2022-05-28 07:34:45'),
+('15', 'Khaki', '15', 'khaki', 'black', '1', '2022-05-28 07:35:11'),
+('16', 'Light Blue', '16', 'lightblue', 'red', '1', '2022-05-28 07:35:34');
