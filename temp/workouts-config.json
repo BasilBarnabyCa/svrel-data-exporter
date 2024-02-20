@@ -1,0 +1,44 @@
+{
+	"Workouts": {
+	  "enabled": true,
+	  "title_case_column_names_enabled": false,
+	  "sql_query": "SELECT * FROM workouts",
+	  "enum_columns": [],
+	  "exclude_columns": ["updated_at"],
+	  "title_case_columns": [],
+	  "rename_columns": {
+		"id": "Id",
+		"date": "WorkoutDate",
+		"condition_id": "ConditionId",
+		"description": "Description",
+		"comment": "Comment",
+		"completed": "IsCompleted",
+		"approved": "IsApproved",
+		"user_id": "Creator",
+		"approver_id": "Approver",
+		"created_at": "CreatedAt"
+	  }
+	},
+	"WorkoutDetails": {
+	  "enabled": true,
+	  "title_case_column_names_enabled": false,
+	  "sql_query": "SELECT * FROM workout_details",
+	  "enum_columns": [],
+	  "exclude_columns": ["updated_at"],
+	  "title_case_columns": [],
+	  "rename_columns": {
+		"id": "Id",
+		"workout_id": "WorkoutId",
+		"horse_id": "HorseId",
+		"type_id": "WorkoutTypeId",
+		"distance": "Distance",
+		"distance_type_id": "WorkoutDistanceTypeId",
+		"minutes": "Minutes",
+		"seconds": "Seconds",
+		"fifths": "Fifths",
+		"comment": "Comment",
+		"created_at": "CreatedAt"
+	  }
+	}
+  }
+  

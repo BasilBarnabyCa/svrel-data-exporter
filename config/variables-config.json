@@ -4,10 +4,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM critical_values",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -22,10 +19,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM countries",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -40,10 +34,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM states",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -58,11 +49,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM sites",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at",
-	  "description"
-    ],
+    "exclude_columns": ["user_id", "updated_at", "description"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -85,10 +72,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM zones",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -99,54 +83,32 @@
       "created_at": "CreatedAt"
     }
   },
-  "TrackConditions": {
+  "HorseMovementTypes": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM track_conditions",
+    "sql_query": "SELECT * FROM horse_movement_types",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
       "name": "Name",
+      "descritpion": "Description",
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }
   },
-  "WorkoutTypes": {
+  "HorseColors": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM workout_types",
+    "sql_query": "SELECT * FROM horse_colors",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
       "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "WorkoutDistanceTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM workout_distance_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
+      "code": "Code",
       "description": "Description",
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
@@ -157,323 +119,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM assessment_types",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "ChecklistTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM checklist_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "Units": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM units",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "unit": "Unit",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "NaturalResourceTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM natural_resource_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "NaturalResource": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM natural_resource",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "type_id": "TypeId",
-      "volume": "Volume",
-      "unit_id": "UnitId",
-      "description": "Description",
-      "state": "State",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "VehicleTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM vehicle_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "code": "Code",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "VehicleProperties": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM vehicle_properties",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "code": "Code",
-      "capacity": "Capacity",
-      "unit_id": "UnitId",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "VehicleMakes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM vehicle_makes",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "VehicleModels": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM vehicle_models",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "make_id": "MakeId",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "EquipmentMakes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM equipment_makes",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "EquipmentTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM equipment_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "StartingGateParts": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM starting_gate_parts",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "type": "Type",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "StartingGates": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM starting_gates",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "TrackMaintenanceRoutes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM track_maintenance_routes",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "ExternalRecipients": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM external_recipients",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "email": "Email",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "HorseColors": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM horse_colors",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "code": "Code",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "HorseGenders": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM horse_genders",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
-    "title_case_columns": [],
-    "rename_columns": {
-      "id": "Id",
-      "name": "Name",
-      "code": "Code",
-      "description": "Description",
-      "enabled": "IsEnabled",
-      "created_at": "CreatedAt"
-    }
-  },
-  "HorseMovementTypes": {
-    "enabled": true,
-    "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM horse_movement_types",
-    "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -488,10 +134,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_equipment",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -508,10 +151,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM saddle_cloths",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -523,39 +163,44 @@
       "created_at": "CreatedAt"
     }
   },
-  "IncidentTypes": {
+  "TrackConditions": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM crm_incident_types",
+    "sql_query": "SELECT * FROM track_conditions",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
       "name": "Name",
-      "description": "Description",
-      "department_id": "DescriptionId",
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }
   },
-  "IncidentDocumentTypes": {
+  "WorkoutTypes": {
     "enabled": true,
     "title_case_column_names_enabled": false,
-    "sql_query": "SELECT * FROM crm_incident_document_types",
+    "sql_query": "SELECT * FROM workout_types",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
       "name": "Name",
-      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "WorkoutDistanceTypes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM workout_distance_types",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }

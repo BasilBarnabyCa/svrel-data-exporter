@@ -1,0 +1,15 @@
+INSERT INTO `HorseColors` (`Id`, `Name`, `Code`, `Description`, `IsEnabled`, `CreatedAt`) VALUES
+('1', 'Bay', 'B', NULL, '1', '2020-07-20 06:12:02'),
+('2', 'Bay or Brown', 'B/BR', NULL, '1', '2020-07-20 06:12:02'),
+('3', 'Bay or Gray', 'B/GR', NULL, '1', '2020-07-20 06:12:02'),
+('4', 'Brown', 'BR', NULL, '1', '2020-07-20 06:12:02'),
+('5', 'Dark Brown', 'DKB', NULL, '1', '2020-07-20 06:12:02'),
+('6', 'Light Brown', 'LTB', NULL, '1', '2020-07-20 06:12:02'),
+('7', 'Dark Brown or Brown', 'DKB/BR', NULL, '1', '2020-07-20 06:12:02'),
+('8', 'Chestnut', 'CH', NULL, '1', '2020-07-20 06:12:02'),
+('9', 'Gray', 'GR', NULL, '1', '2020-07-20 06:12:02'),
+('10', 'Dark Gray', 'DKGR', NULL, '1', '2020-07-20 06:12:02'),
+('11', 'Roan', 'RN', NULL, '1', '2020-07-20 06:12:02'),
+('12', 'Gray or Roan', 'GR/RN', NULL, '1', '2020-07-20 06:12:02'),
+('13', 'Roan or Chestnut', 'RN/CH', NULL, '1', '2020-07-20 06:12:02'),
+('14', 'Uknown', 'UNK', NULL, '1', '2020-07-20 06:12:02');
