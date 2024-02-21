@@ -1,0 +1,56 @@
+{
+  "Checklists": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM checklists",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "type_id": "TypeId",
+      "user_id": "Creator",
+      "complete_user_id": "Completer",
+      "approver_id": "Approver",
+      "checklist_date": "ChecklistDate",
+      "comment": "Comment",
+      "image_path": "ImagePath",
+      "image_extension": "ImageExtension",
+      "image_mime_type": "ImageMimeType",
+      "completed_at": "CompletedAt",
+      "approved_at": "ApprovedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "ChecklistActions": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM checklist_actions",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at", "user_id"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "type_id": "TypeId",
+      "action": "Action",
+	  "description": "Description",
+      "created_at": "CreatedAt"
+    }
+  },
+  "ChecklistDetails": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM checklist_details",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "checklist_id": "ChecklistId",
+      "checklist_action_id": "ChecklistActionId",
+	  "action": "Action",
+	  "completed": "IsCompleted",
+      "created_at": "CreatedAt"
+    }
+  }
+}

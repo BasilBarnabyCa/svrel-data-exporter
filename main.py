@@ -28,7 +28,7 @@ db_config_sql_execution = {
     "user": os.getenv("SQL_EXECUTION_DB_USERNAME"),
    	"password": quote_plus(os.getenv("SQL_EXECUTION_DB_PASSWORD")),
     "host": os.getenv("SQL_EXECUTION_DB_HOST", "127.0.0.1"),
-    "port": os.getenv("SQL_EXECUTION_DB_PORT", "3306")
+    "port": os.getenv("SQL_EXECUTION_DB_PORT", "3307")
 }
 
 # VARIABLES

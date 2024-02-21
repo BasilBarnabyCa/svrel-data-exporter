@@ -204,5 +204,20 @@
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }
+  },
+  "ChecklistTypes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM checklist_types",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
   }
 }
