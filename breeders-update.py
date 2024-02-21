@@ -37,3 +37,21 @@ try:
     general_logger.info(f"Updated Breeder's type and saved to: {file_path}")
 except Exception as e:
     error_logger.error(f"Error processing file {file_path}: {e}", exc_info=True)
+    
+try:
+    # Step 1: Load the CSV file
+    df = pd.read_csv(file_path)
+
+    # Step 2: Cleanup 'Comment' column by replacing '&amp;' and '&AMP;' with an empty string
+    if 'Name' in df.columns:
+        df['Name'] = df['Name'].str.replace('&amp;', '&', case=False, regex=False)
+        df['Name'] = df['Name'].str.replace('&AMP;', '&', case=False, regex=False)
+        df['Name'] = df['Name'].str.replace(';', '', case=False, regex=False)
+
+    # Step 3: Save the updated DataFrame back to a CSV file
+    df.to_csv(file_path, index=False)
+
+    general_logger.info(f"Cleaned up '&amp;' and '&AMP;' from 'Name' column and saved to: {file_path}")
+except Exception as e:
+    error_logger.error(f"Error processing file {file_path}: {e}", exc_info=True)
+

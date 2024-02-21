@@ -66,19 +66,23 @@ def execute_sql_scripts(folder_path, engine):
 			# Disable foreign key checks
 			conn.execute(text("SET FOREIGN_KEY_CHECKS=0;"))
 			general_logger.info("Foreign key checks disabled.")
+   
+			# Initialize a set to track truncated tables
+			truncated_tables = set()
 
 			# Recursively execute SQL scripts in all subfolders
 			for root, dirs, files in os.walk(folder_path):
 				for file in files:
 					if file.endswith('.sql'):
 						# Derive the table name from the file name (assuming a naming convention)
-						# table_name = file.replace('.sql', '').replace('_inserts', '')
-						# TODO: FIX TABLE NAME
 						table_name = file.replace('.sql', '').split('_', 1)[0]
 
-						# Truncate the table associated with this SQL file
-						general_logger.info(f"Truncating table: {table_name}")
-						conn.execute(text(f"TRUNCATE TABLE {table_name};"))
+						# Check if the table has already been truncated
+						if table_name not in truncated_tables:
+							# Truncate the table if it's the first time processing it
+							general_logger.info(f"Truncating table: {table_name}")
+							conn.execute(text(f"TRUNCATE TABLE {table_name};"))
+							truncated_tables.add(table_name)
 
 						# Execute the SQL script for the truncated table
 						file_path = os.path.join(root, file)
