@@ -219,5 +219,174 @@
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }
+  },
+  "Units": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM units",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "unit": "UnitMeasure",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "NaturalResourceTypes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM natural_resource_types",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "NaturalResources": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM natural_resources",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "type_id": "TypeId",
+      "volume": "Volume",
+      "unit_id": "UnitId",
+      "description": "Description",
+      "state": "State",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "VehicleTypes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM vehicle_types",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "code": "Code",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "VehicleProperties": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM vehicle_properties",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "capacity": "Capacity",
+      "unit_id": "UnitId",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "VehicleMakes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM vehicle_makes",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "VehicleModels": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM vehicle_models",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "make_id": "MakeId",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "EquipmentMakes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM equipment_makes",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "EquipmentTypes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM equipment_types",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StartingGateParts": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM starting_gate_parts",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "type": "Type",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "TrackMaintenanceRoutes": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM track_maintenance_routes",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
   }
 }

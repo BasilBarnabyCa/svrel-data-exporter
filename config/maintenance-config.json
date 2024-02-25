@@ -1,0 +1,68 @@
+{
+  "StartingGates": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM starting_gates",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "name": "Name",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StartingGateStalls": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM starting_gate_stalls",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "starting_gate_id": "StartingGateId",
+      "stall_number": "StallNumber",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StartingGateStallPartStates": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM starting_gate_stall_states",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "stall_id": "StallId",
+      "part_id": "PartId",
+      "state": "State",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StartingGateStallPartStateLogs": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM starting_gate_stall_state_logs",
+    "enum_columns": [],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "stall_id": "StallId",
+      "starting_gate_name": "StartingGateName",
+      "stall_number": "StallNumber",
+      "part_id": "PartId",
+      "part_name": "PartName",
+      "state": "State",
+      "comment": "Comment",
+      "race": "Race",
+	  "user_name": "User",
+      "created_at": "CreatedAt"
+    }
+  }
+}

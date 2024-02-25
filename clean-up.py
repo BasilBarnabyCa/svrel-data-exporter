@@ -9,7 +9,8 @@ scripts = [
     'breeders-update.py',
     'grooms-update.py',
 	'horses-update.py',
-	'workouts-update.py'
+	'workouts-update.py',
+	'starting-gate-stall-parts-state-logs-update.py',
 ]
 
 general_logger.info("\nStarting cleanup...")
