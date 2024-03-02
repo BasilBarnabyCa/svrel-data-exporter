@@ -35,5 +35,113 @@
       "last_worked_out_at": "LastWorkedOutAt",
       "created_at": "CreatedAt"
     }
+  },
+  "HorseStatistics": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_general_statistics",
+    "enum_columns": [],
+    "exclude_columns": [
+      "user_id",
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "placing_1": "Placing1",
+      "placing_2": "Placing2",
+      "placing_3": "Placing3",
+      "all_wins": "AllWins",
+      "all_seconds": "AllSeconds",
+      "all_thirds": "AllThirds",
+	  "all_fourths": "AllFourths",
+	  "all_unplaced": "AllUnplaced",
+	  "all_stakes": "AllStakes",
+	  "current_wins": "CurrentWins",
+	  "current_seconds": "CurrentSeconds",
+	  "current_thirds": "CurrentThirds",
+	  "current_fourths": "CurrentFourths",
+	  "current_unplaced": "CurrentUnplaced",
+	  "current_stakes": "CurrentStakes",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseDeaths": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_deaths",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "death_description": "DeathDescription",
+      "vet_id": "VetId",
+      "deceased_at": "DeceasedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseDeathReversals": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_death_reversals",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "reason": "Reason",
+      "user_id": "UserId",
+      "deceased_at": "DeceasedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseHealth": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_health",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "equipment": "Equipment",
+      "l_type": "LType",
+      "r_type": "RType",
+      "status_id": "AssessmentTypeId",
+      "user_id": "UserId",
+      "deceased_at": "DeceasedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseHealthTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_health_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "comment": "Comment",
+      "user_id": "UserId",
+      "assessment_type_id": "AssessmentTypeId",
+      "date": "Date",
+      "created_at": "CreatedAt"
+    }
   }
+
 }
