@@ -170,6 +170,137 @@
       "arrived_at": "ArrivedAt",
       "created_at": "CreatedAt"
     }
+  },
+  "HorseVaccinationTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_vaccination_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "vaccination_certificate_number": "VaccinationCertificateNumber",
+      "vaccination_batch_number": "VaccinationBatchNumber",
+      "comment": "comment",
+      "vet_id": "VetId",
+      "vaccinated_at": "VaccinatedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseTrainerTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_trainer_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at",
+	  "enabled"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "trainer_id": "TrainerId",
+      "user_id": "UserId",
+      "started_at": "StartedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseGroomTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_groom_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at",
+	  "enabled"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "groom_id": "GroomId",
+      "user_id": "UserId",
+      "started_at": "StartedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseOwnerTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_owner_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at",
+	  "enabled"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "owner_id": "OwnerId",
+      "user_id": "UserId",
+      "owned_at": "StartedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseLasixTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_lasix_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "comment": "Comment",
+      "vet_id": "VetId",
+      "administered_at": "AdministeredAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseSuspensionTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_suspension_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "reason": "Reason",
+      "vet_id": "VetId",
+      "suspended_at": "SuspendedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseStatusTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_status_logs",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "reason": "Status",
+      "user_id": "UserId",
+      "changed_at": "ChangedAt",
+      "created_at": "CreatedAt"
+    }
   }
 
 }
