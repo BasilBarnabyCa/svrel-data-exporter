@@ -142,6 +142,34 @@
       "date": "Date",
       "created_at": "CreatedAt"
     }
+  },
+  "HorseMovements": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_movements",
+    "enum_columns": [],
+    "exclude_columns": [
+      "updated_at"
+    ],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "type_id": "HorseMovementTypeId",
+      "departure_transporter_name": "DepartureTransporterName",
+      "departure_transporter_verified": "IsDepartureTransporterVerified",
+      "departure_license_plate_number": "DepartureLicensePlateNumber",
+      "departure_comment": "DepartureComment",
+      "departure_user_id": "DepartureUserId",
+      "departed_at": "DepartedAt",
+      "arrival_transporter_name": "ArrivalTransporterName",
+      "arrival_transporter_verified": "IsArrivalTransporterVerified",
+      "arrival_license_plate_number": "ArrivalLicensePlateNumber",
+      "arrival_comment": "ArrivalComment",
+      "arrival_user_id": "ArrivalUserId",
+      "arrived_at": "ArrivedAt",
+      "created_at": "CreatedAt"
+    }
   }
 
 }

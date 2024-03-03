@@ -13,6 +13,7 @@ scripts = [
 	'starting-gate-stall-parts-state-logs-update.py',
 	'horse-deaths-update.py',
 	'horse-health-tracking-update.py',
+	'horse-movements-update.py',
 ]
 
 general_logger.info("\nStarting cleanup...")
