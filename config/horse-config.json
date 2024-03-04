@@ -4,11 +4,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horses",
     "enum_columns": ["gender_id"],
-    "exclude_columns": [
-      "was_unregistered",
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["was_unregistered", "user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -41,10 +37,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_general_statistics",
     "enum_columns": [],
-    "exclude_columns": [
-      "user_id",
-      "updated_at"
-    ],
+    "exclude_columns": ["user_id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -55,15 +48,15 @@
       "all_wins": "AllWins",
       "all_seconds": "AllSeconds",
       "all_thirds": "AllThirds",
-	  "all_fourths": "AllFourths",
-	  "all_unplaced": "AllUnplaced",
-	  "all_stakes": "AllStakes",
-	  "current_wins": "CurrentWins",
-	  "current_seconds": "CurrentSeconds",
-	  "current_thirds": "CurrentThirds",
-	  "current_fourths": "CurrentFourths",
-	  "current_unplaced": "CurrentUnplaced",
-	  "current_stakes": "CurrentStakes",
+      "all_fourths": "AllFourths",
+      "all_unplaced": "AllUnplaced",
+      "all_stakes": "AllStakes",
+      "current_wins": "CurrentWins",
+      "current_seconds": "CurrentSeconds",
+      "current_thirds": "CurrentThirds",
+      "current_fourths": "CurrentFourths",
+      "current_unplaced": "CurrentUnplaced",
+      "current_stakes": "CurrentStakes",
       "created_at": "CreatedAt"
     }
   },
@@ -72,9 +65,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_deaths",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -90,9 +81,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_death_reversals",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -108,9 +97,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_health",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -129,9 +116,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_health_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -148,9 +133,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_movements",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -176,9 +159,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_vaccination_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -196,10 +177,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_trainer_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at",
-	  "enabled"
-    ],
+    "exclude_columns": ["updated_at", "enabled"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -215,10 +193,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_groom_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at",
-	  "enabled"
-    ],
+    "exclude_columns": ["updated_at", "enabled"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -234,10 +209,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_owner_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at",
-	  "enabled"
-    ],
+    "exclude_columns": ["updated_at", "enabled"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -253,9 +225,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_lasix_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -271,9 +241,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_suspension_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -289,9 +257,7 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_status_logs",
     "enum_columns": [],
-    "exclude_columns": [
-      "updated_at"
-    ],
+    "exclude_columns": ["updated_at"],
     "title_case_columns": [],
     "rename_columns": {
       "id": "Id",
@@ -301,6 +267,48 @@
       "changed_at": "ChangedAt",
       "created_at": "CreatedAt"
     }
+  },
+  "HorseRace": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_race",
+    "enum_columns": [],
+    "exclude_columns": [],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "race_id": "RaceId",
+      "finish_position": "FinishPosition",
+      "original_position": "OriginalPosition",
+      "post_position": "PostPosition",
+      "track": "Track",
+      "race_number": "RaceNumber",
+      "equipment": "Equipment",
+      "weight": "Weight",
+      "win_division": "WinDivision",
+      "place_division": "PlaceDivision",
+      "comment": "Comment",
+      "disqualified": "IsDisqualified",
+      "jockey_id": "JockeyId",
+      "trainer_id": "TrainerId",
+      "owner_id": "OwnerId",
+      "groom_id": "GroomId",
+      "claimant_id": "ClaimantId",
+      "claim_price": "ClaimPrice",
+      "claimant_trainer_id": "ClaimantTrainerId",
+      "previous_rating": "PreviousRating",
+      "rating": "Rating",
+      "position1": "Position1",
+      "lencall1": "LenCall1",
+      "position2": "Position2",
+      "lencall2": "LenCall2",
+      "position3": "Position3",
+      "lencall3": "LenCall3",
+      "position4": "Position4",
+      "lencall4": "LenCall4",
+      "lengths": "Lengths",
+      "odds": "Odds"
+    }
   }
-
 }
