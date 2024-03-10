@@ -198,3 +198,4 @@ for script in scripts:
 
 # CALL SQL SCRIPT EXECUTION
 execute_sql_scripts(sql_scripts_dir, engine_sql_execution)
+general_logger.info("Data transfer complete!")

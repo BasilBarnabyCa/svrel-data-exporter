@@ -374,5 +374,17 @@
 	  "changed_at": "ChangedAt",
       "created_at": "CreatedAt"
     }
+  },
+  "HorseEquipmentWorkoutDetail": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_equipment_workout_detail",
+    "enum_columns": [],
+    "exclude_columns": [],
+    "title_case_columns": [],
+    "rename_columns": {
+      "horse_equipment_id": "HorseEquipmentId",
+      "workout_detail_id": "WorkoutDetailId"
+    }
   }
 }

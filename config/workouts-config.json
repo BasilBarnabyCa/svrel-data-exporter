@@ -40,5 +40,20 @@
       "comment": "Comment",
       "created_at": "CreatedAt"
     }
+  },
+  "WorkoutConditionTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM workout_condition_logs",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "workout_id": "WorkoutId",
+      "condition_id": "TrackConditionId",
+      "user_id": "UserId",
+      "created_at": "CreatedAt"
+    }
   }
 }
