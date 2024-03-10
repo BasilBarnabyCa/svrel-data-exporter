@@ -310,5 +310,69 @@
       "lengths": "Lengths",
       "odds": "Odds"
     }
+  },
+  "HorseImages": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_images",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+      "type": "Type",
+      "path": "Path",
+      "extension": "Extension",
+      "mime_type": "MimeType",
+      "user_id": "UserId",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseAssessmentImages": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_assessment_images",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "horse_health_log_id": "HorseHealthTrackingId",
+      "path": "Path",
+      "extension": "Extension",
+      "mime_type": "MimeType",
+      "user_id": "UserId",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseColorTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_color_logs",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at", "enabled"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "horse_id": "HorseId",
+      "color_id": "ColorId",
+      "user_id": "UserId",
+	  "changed_at": "ChangedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "HorseGenderTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM horse_gender_logs",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at", "enabled"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "horse_id": "HorseId",
+      "gender_id": "Gender",
+      "user_id": "UserId",
+	  "changed_at": "ChangedAt",
+      "created_at": "CreatedAt"
+    }
   }
 }
