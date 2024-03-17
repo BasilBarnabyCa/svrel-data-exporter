@@ -1,0 +1,98 @@
+{
+  "Stables": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM stables",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "zone_id": "ZoneId",
+      "trainer_id": "TrainerId",
+      "name": "Name",
+      "description": "Description",
+      "enabled": "IsEnabled",
+      "user_id": "UserId",
+      "created_at": "CreatedAt"
+    }
+  },
+  "Stalls": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM stalls",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "stable_id": "StableId",
+      "borrower_id": "BorrowerId",
+      "horse_id": "HorseId",
+      "storage": "Storage",
+      "has_ac": "HasAc",
+      "has_fans": "HasFans",
+      "name": "Name",
+      "description": "Description",
+      "occupied": "IsOccupied",
+      "enabled": "IsEnabled",
+      "user_id": "UserId",
+      "is_enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StableTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM stable_logs",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "stable_id": "StableId",
+      "trainer": "TrainerId",
+      "user_id": "UserId",
+      "owned_at": "OwnedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StallTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM stall_logs",
+    "enum_columns": [],
+    "exclude_columns": ["stable_id", "stall_id",  "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "horse_id": "HorseId",
+	  "stable_id": "StableId",
+	  "stall_id": "StallId",
+      "new_location": "NewLocation",
+      "previous_location": "PreviousLocation",
+      "action": "Action",
+      "user_id": "UserId",
+      "owned_at": "OwnedAt",
+      "created_at": "CreatedAt"
+    }
+  },
+  "StallStorageTracking": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM stall_storage_logs",
+    "enum_columns": [],
+    "exclude_columns": ["updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "stall_id": "StallId",
+      "stable_id": "StableId",
+      "new_location": "Item",
+      "previous_location": "Comment",
+      "action": "Action",
+      "user_id": "UserId",
+      "created_at": "CreatedAt"
+    }
+  }
+}
