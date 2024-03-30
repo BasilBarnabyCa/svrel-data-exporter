@@ -15,7 +15,8 @@ scripts = [
 	'horse-health-tracking-update.py',
 	'horse-movements-update.py',
 	'horse-race-duplicates.py',
-	'horse-gender-tracking-update.py'
+	'horse-gender-tracking-update.py',
+	'races-update.py'
 ]
 
 general_logger.info("\nStarting cleanup...")

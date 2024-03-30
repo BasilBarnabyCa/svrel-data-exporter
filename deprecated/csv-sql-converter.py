@@ -24,15 +24,11 @@ def dataframe_to_sql_inserts(df, table_name):
         for index, row in df.iterrows():
             values = []
             for val in row.values:
-                if pd.isna(val):
+                if pd.isna(val) or val == '':
                     values.append('NULL')
-                elif isinstance(val, int):
-                    values.append(str(val))  # Keep integers as integers
-                elif isinstance(val, float) and val.is_integer():
-                    values.append(str(int(val)))  # Convert floats that are actually integers to integers
                 else:
                     val_str = str(val).replace("'", "''")
-                    values.append(f"'{val_str}'")  # Treat everything else as a string
+                    values.append(f"'{val_str}'")
             values_str = ", ".join(values)
             values_list.append(f"({values_str})")
 

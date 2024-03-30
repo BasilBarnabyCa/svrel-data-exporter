@@ -1,2 +1,2 @@
 INSERT INTO `Sites` (`Id`, `Name`, `Address1`, `Address2`, `CityTown`, `StateId`, `ZipcodePostal`, `CountryId`, `Phone1`, `Phone2`, `IsEnabled`, `CreatedAt`) VALUES
-('1', 'Caymanas Park', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '1', '2021-05-22 09:03:56');
+(1, 'Caymanas Park', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1, '2021-05-22 09:03:56');
