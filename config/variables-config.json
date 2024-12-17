@@ -29,7 +29,7 @@
       "created_at": "CreatedAt"
     }
   },
-  "States": {
+  "StateProvinces": {
     "enabled": true,
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM states",
@@ -58,7 +58,7 @@
       "address1": "Address1",
       "address2": "Address2",
       "city_town": "CityTown",
-      "state_id": "StateId",
+      "state_id": "StateProvinceId",
       "zipcode_postal": "ZipcodePostal",
       "country_id": "CountryId",
       "phone1": "Phone1",
@@ -260,7 +260,7 @@
     "rename_columns": {
       "id": "Id",
       "name": "Name",
-      "type_id": "TypeId",
+      "type_id": "NaturalResourceTypeId",
       "volume": "Volume",
       "unit_id": "UnitId",
       "description": "Description",
@@ -325,7 +325,7 @@
     "rename_columns": {
       "id": "Id",
       "name": "Name",
-      "make_id": "MakeId",
+	  "make_id": "VehicleMakeId",
       "enabled": "IsEnabled",
       "created_at": "CreatedAt"
     }

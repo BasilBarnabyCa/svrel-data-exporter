@@ -22,4 +22,5 @@ INSERT INTO `Attendants` (`Id`, `FirstName`, `MiddleInitial`, `LastName`, `IsEna
 (21, 'Michael', 'M', 'Simms', 1, '2021-10-17 06:41:08'),
 (22, 'Leonardo', 'L', 'Brown', 1, '2022-06-26 04:34:24'),
 (23, 'Daiwayne', '.', 'Campbell', 1, '2022-07-29 10:54:04'),
-(24, 'Javon', '.', 'Tomlinson', 1, '2022-10-11 04:18:29');
+(24, 'Javon', '.', 'Tomlinson', 1, '2022-10-11 04:18:29'),
+(25, 'Rohan', '.', 'Robinson', 1, '2023-10-07 04:59:40');

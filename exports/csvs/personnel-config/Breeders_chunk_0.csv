@@ -1,4 +1,4 @@
-Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,Phone2,Email,ImagePath,ImageMimeType,ImageExtension,Comment,IsActive,IsEnabled,CreatedAt
+Id,Type,Name,Address1,Address2,CityTown,StateProvinceId,ZipcodePostal,CountryId,Phone1,Phone2,Email,ImagePath,ImageMimeType,ImageExtension,Comment,IsActive,IsEnabled,CreatedAt
 15,0,Grange Farms,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 21,0,Orange Valley Estates Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 37,0,Turnbull Farms Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
@@ -135,6 +135,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 3934,1,Earnest Paul,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 3978,1,Jose Pinchin,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 3990,1,Horace Roy Parke (Late),,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
+3991,1,Roy Williams,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 4017,1,D. Anthony Pearson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 4073,1,J.E. Plummer,,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
 4089,1,Shelagh F. Rousseau (Mrs.),,,,,,,,,,,,,,1,1,2020-08-21 06:52:31
@@ -347,7 +348,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 7243,1,Norman W. Palmer,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 7259,2,"Anthony Subratie, Beresford Chin & Carl Brown",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 7265,1,Paul Matalon,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
-7271,2,Bruce Tater (Mr.& Mrs) Frank Kamen(Mr. & Mrs)(U,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+7271,2,Bruce Tater (Mr.& Mrs)& Frank Kamen(Mr.& Mrs)(U,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 7287,1,Douglas Mudahay,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 7293,0,Sun Valley Farms Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 7306,1,Owen Palmer,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -587,7 +588,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 9891,1,Paul Arscott,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 9904,2,Hubert & Docia Pilcher,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 9910,2,James Chase & S. Chang,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
-9926,2,"Laurie Lewis & Crafton, Easton Calvin Desouza",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+9926,2,"Laurie Lewis & Crafton, Easton & Calvin Desouza",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 9932,2,"Mark, Betty & Susan Wates",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 9948,2,Tyrone Hilton & Winston Lincoln,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 9954,0,Silver Meadow Farms Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -805,6 +806,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 12167,1,Oneil Hinds,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12173,1,Uton Stewart,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12189,1,Federick Grant,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+12190,1,Vincent Henry,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 12194,1,Winston Rattray,,,,,,,,,,,,,,1,1,2021-05-17 07:13:20
 12195,1,Oliver C. Street,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12208,2,Ivan Douglas & C. Bailey,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -845,6 +847,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 12509,0,Westwood Thoroughbred Farms Inc.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12515,1,Victor Chong,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12521,1,Jerry Franker,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+12523,1,Carlton Brown,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 12528,1,"Burke, Ean George",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12537,1,Joseph Duany,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12539,1,Robert Dabdoub,,,,,,,,,,,,,,1,1,2022-10-15 16:53:00
@@ -893,6 +896,8 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 12929,1,Felix Hanson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12935,1,Rupert Bogle,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12941,1,Ralph Holung,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+12950,1,Desmond L. Munroe,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
+12951,1,Anthony Nunes,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 12957,1,Fred Mcleod,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12963,1,Richard Mcleod,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 12979,1,Garrett Hearn (Tri.),,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -934,12 +939,14 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 13494,1,Noel Levy,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13507,1,Paulette Ramdanie,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13513,1,Peter G. Mcmaster,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+13516,1,Anthony Pasmore,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 13525,1,Margaret Parchment,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13529,1,E. Mignott,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13535,1,P. Virtue,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13541,1,Ian Henderson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13551,1,"Williams, Dennis Lloyd",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13557,1,Lorraine Fong,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+13558,1,Kalmin Mcleod,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 13563,1,Diane A. Lee,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13570,1,"King, Seward Hermon",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13579,1,Desmond J.H. Browne,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -978,6 +985,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 13842,2,Mr. Wilfred & Mrs. Cleo Acham,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13858,1,Setrock Limited,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13864,2,Rodney Jones & Maniram Maharaj,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+13867,1,Calvin Scott,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 13870,1,Ernest Francis,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13886,2,Herbert Thompson & Morris Burton,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 13892,1,Winston Mair,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1013,6 +1021,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 14163,1,Michael T. Barnett,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14179,1,Carl J. Maggio,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14185,1,Judy E. Hatley 1987 Trust,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+14192,1,Stedman Curtis,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 14210,2,J.R. Querbes Iii & Albert Sklar,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14226,1,Charles Burgess,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14232,1,Newchance Farm,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1029,6 +1038,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 14343,1,"Crichton, Rohan G.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14345,1,Jordan Downs,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14351,1,Evrood Reid,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+14366,1,Tyrone Dunkley,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 14367,1,Errol And Andrea Panton,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14373,1,Dr. Paul Wright,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14374,1,"Mordecai, Jeffrey Stephen",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1094,6 +1104,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 14878,1,Lydia Russell,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14884,1,Vincent Chen,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14890,1,Dr. Courtney Waughn,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+14891,1,Borris Mcintosh,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 14903,1,Desmond Leaky,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14919,1,Basil Roberts Jnr.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 14923,1,"Kong, Winston Allan",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1128,6 +1139,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 15155,1,David Delisser,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15156,1,"Reeves, Everdeen Maxwell",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15161,1,Basil Wishart,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+15168,1,Devon Vanreil,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 15177,2,"Fink, Fred L. Corrado & Fincor Co., Jule",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15183,2,V.E.R Bowen & N. Clarke,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15199,1,(Estate) George Warren,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1135,8 +1147,11 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 15204,1,Harold Tucker,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15218,1,Dr. R. Jones,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15224,2,"Teddy Richards, Alvin Garcia & Denniston Brown",,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+15228,1,Robert Ffrench,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 15230,2,Fernando Montique & Devon Henry,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+15244,1,Dale O. Murphy,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 15246,1,Richard Jones (Dr.),,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+15251,1,Alwyn Dasilva,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 15252,1,Hendricks G. Porter,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15263,1,Everton Johnson,,,,,,,,,,,,,,1,1,2022-10-15 16:53:00
 15268,1,Basil Ward,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1184,6 +1199,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 15688,1,John Hettinger,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15694,1,Leroy Sherwood,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15707,2,Edison Chai & Robert Christopher Girvan,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+15709,1,Lincoln Lungs,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 15713,1,Errol D. Williams,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15729,1,Edison Chai,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 15735,2,G. Henderson & A. Henderson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1242,6 +1258,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 16448,1,Clifton Francis,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 16454,1,Naresh Nagrani,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 16460,1,Morris Powell,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
+16465,1,Leslie Bennett,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 16476,2,Peter J. & Peter F. Samuels,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 16482,1,Mayville Prendergast,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
 16498,0,F.A. Genter Stables Inc.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:32
@@ -1340,6 +1357,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 17424,2,Arthur Chin Fatt & Phillip A. Liv,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 17430,2,Peter & Patricia Smith,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 17446,2,"Frederick Alexander, Marie Chai & Barrington Lee",,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
+17451,1,Kevin Brivette,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 17452,2,Joseph Simmons & Douglas Sasso,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 17468,1,Lee Sin Enterprises,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 17474,2,Robert & Anthea Gore & Noel Levy,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
@@ -1779,6 +1797,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 21679,1,Dr. J.H. Beckford,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 21685,1,P.W. Chung,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 21691,1,C.D. Alexander,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
+21692,1,Hiddne Lake Farm,,,,,,,,,,,,,,1,1,2024-04-18 12:45:40
 21704,1,P. Burns,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 21710,1,Gilda I. Rose,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 21726,1,J. Pendergast,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
@@ -2210,7 +2229,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 25024,1,Ross Harris,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 25025,2,"Shaker Ridge Farm, Inc. & Vinery Llc",,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 25027,1,Anthony Smith,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
-25028,0,Farnsworth Farms &  M & M Bloodstock,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
+25028,0,Farnsworth Farms &  M & M Bloodstock,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 25029,1,Jacqueline Jackto,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 25030,1,Donna Gillette,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
 25031,2,John Taylor & Daniel Reid,,,,,,,,,,,,,,1,1,2020-08-21 06:52:33
@@ -2495,7 +2514,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 26012,1,Dr. D.W Frazier,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 26013,1,Dr. A. Don. Wolff,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 26014,2,E & D Enterprises,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
-26015,0,E & D Enterprises   & Morven Stud Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+26015,0,E & D Enterprises   & Morven Stud Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 26016,1,Mrs R Macdonald-Buchanan,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 26017,1,P. Quinlan,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 26018,1,Quintin Holtz,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3252,6 +3271,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 26973,1,Donald Jones,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27010,1,Danzel Brendemuehl,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27029,1,David Eccleston,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+27052,1,Delroy Wallace,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 27182,2,"Dr. G.S.Mcleod, C.J.Charles & N.E.Dowden",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27287,1,Elaine Mcmaster,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27442,1,Fred Hertrich Iii,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
@@ -3263,7 +3283,9 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 27626,1,"Plumlet,Harold J.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27718,0,Dacosta Farms Limited,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 27939,2,Joseph & Mrs. Shirley Mckesey,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+27943,2,Joseph Barbozan & Helen Barbozan,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 28027,1,Kelso Small,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+28132,1,Leroy Williams,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 28170,1,Lloyd Davis,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 28292,2,"Mary Mcfarlane, Mark & Susan Wates",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 28381,1,Morris Powell,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3276,6 +3298,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 28847,1,Rudolph Hardial,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 29066,2,Trevor Mcleod & Evrood Reid,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 29116,1,Vincent Lumsden,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+29207,1,William Mccalla,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 29506,1,"Walker, Peter",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 29522,1,"Morgan, Errol",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 29559,1,"Persad, Rawdon Kanta",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3304,6 +3327,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 31863,1,John D. Murph,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 31871,1,Elite Bloodstock Limited,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 31891,1,"Ellis, Patrick Anthony",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+31934,1,Ian Roberts,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 31939,0,Sienne Farms Llc,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 31990,1,"Reid, Rupert Alphanso",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 31991,2,Bruce Baylis & Edison Chai,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3311,6 +3335,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 32009,0,Amalgamated Distributors Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32014,2,Elias Haloute & Stephan Narinesingh,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32073,1,"Mckenzie, Karonia",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+32088,2,Leroy Akins & Travis Wilson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 32252,0,Triple M Distributors Ltd.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32714,0,Lops Company Limited,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32768,2,Lloyd G. Clachar & Sherman H. Clachar,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3395,6 +3420,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 32983,1,"Leidy, Frances A. H.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32984,0,S & D Stables,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 32987,1,Dark Hollow Farm,,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
+32999,1,Michael Edwards,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33008,1,"Shaw, John",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 33009,1,"Imbesi, Joseph M.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
 33010,1,"Colando, Dr. Andrew C.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:34
@@ -3461,8 +3487,10 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 33229,1,"Gonzalez, Alfredo",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33231,1,"Bates, Bertland Gregory Everald",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33232,2,Bertland G. Bates & George R. Moo-Young,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33235,1,Paul E. Lumsden,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33236,2,"Helen C. Alexander & Helen K. Groves, Rev. Trust",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33244,2,Bobby  Jones & Toni  Jones,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33251,1,Yehert Miller,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33258,2,Anthony  Richards & Vaughn A. Smith,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33269,2,"Elizabeth Dacosta, Laurence Heffes & Eric Martin",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33271,1,"Ekstrom, Bruce K.",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3516,8 +3544,10 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 33456,1,Sandra Solomon,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33470,1,Monique Azan,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33472,1,"Atkinson, Vincent",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33524,1,Raheim Baccas,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33534,1,Vintage Bloodstock,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33551,1,Michael Byfield,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33557,1,Patrick Mckenzie,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33567,1,Morris Villas,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33568,2,Morris Villas & Rohan Robinson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33574,2,Mr. & Mrs. Marty Hershe,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3530,7 +3560,10 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 33611,2,Charmaine Dennis & Glasford Perrin,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33612,1,Carlton Watson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33619,1,Andre Smith,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
+33621,2,Royhan Levy & Lancelot Wong,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+33628,1,Gary Laing,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33629,1,Darren Mckenzie,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
+33631,1,Eaton Parkins,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33632,2,Wilbert Bagwandeen & Dennis Graham,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33638,2,Merrick Garriques & Craig Garriques,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33639,1,Paul R. Wright,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3539,12 +3572,14 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 33658,1,Fitzgerald Roberts,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33661,1,Charles Anderson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33672,1,Gloria Williams,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33673,1,Paul A. Williams,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33697,1,"Carole Rio, John Rio, Mike Sivo, Dr. Laura Surovi Sivo",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33703,1,"M.Azan,R.Azan,G.Brown,W.Bagwandeen",,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33711,1,Gordon Bucknor,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33732,1,Ewart Brown,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33743,2,"C.Kidder, N.Cole, J.K Griggs & Linda Griggs",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33744,1,Vincent A. Atkinson,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33752,1,Maxine Johnson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33760,2,Jacqueline Burgess & Emile Wright,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 33761,1,Glen Mills,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33765,2,Brent Fernung & Crystal Fernung,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3561,11 +3596,13 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 33855,1,Garwin Tulloch,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33856,1,Kama Maharaj,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 33932,1,John Elder,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+33943,1,Valerie Marlowe,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 33977,1,"Parkinson, Anthony Edward",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33978,2,Doug Vranhan & Felicia Vranhan,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33989,2,Eleanora Palmer & Louis Palmer,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33996,2,"C. Boorman, E. Haloute & Anth Hart",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 33999,1,Derrick White,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+34000,1,Barrington Daley,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34039,1,Marion G. Montanari,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34040,1,Nicholas M. Lotz,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34041,1,Abo Al Roos Stud Farm,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3586,13 +3623,17 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 34178,1,Ballintry Stud,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34179,1,Robert C. Roffey (Jr),,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34182,2,Richard Azan & Alexander Haber,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34191,1,Keisha Thomas,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34202,1,Zara Zimmerman,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34206,1,Hal Snowden (Jr),,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+34226,1,Racing Assocs 2,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34235,1,Gabrielle Ralston,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34241,1,Beth Bayer,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34244,0,Halcyon Hammock Farms,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34245,1,Ewart Minto,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34247,1,Michael Reid,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+34253,1,Peter Mcfarlane,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34254,1,Nicole Hunter,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34257,0,Kingsport Farms,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34265,1,Rfhf Mares Rule,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34266,1,Racing Assocs 2,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
@@ -3610,14 +3651,19 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 34354,0,Solid Golden Farms Ltd,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34358,0,Zayat Stables Llc,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34367,2,"Elizabeth Dacosta, Ian Kong & Raymond Rousseau",,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
+34374,2,Nicole Hunter & Bevin Hall,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34380,1,"Rgp Ocala Holding, Inc",,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34381,1,Windylea Farm,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+34389,1,Mark Perry,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34405,1,"David Nowicki, Madeline Nowicki,Melissa L. Anthony",,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34417,1,Elizabeth Muirhead,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34418,1,Clark Brewster,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 34419,2,James J. Crupi & Dylan M. Venosa,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
+34436,2,Michael Reid & Raymond Townsend,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34440,2,"S. Narinesingh, D. Miller, E. Haloute, A. Bjorn & B. Sagan-M",,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34447,2,Stephan Narinesingh & Anthony Nunes,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34450,2,Nicole Henry & Vincent Henry,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34451,2,Grayden Rose & Franz Jobson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34463,1,Ronald Lavine,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34465,1,Jane Schosberg,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34473,1,Anapola Racing Corp.,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
@@ -3636,6 +3682,7 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 34548,2,Richard Azan & Wilbert Bagwandeen,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34553,1,"Derrick Brandt,Stephan Narinesingh,Courtney Walsh",,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34560,2,Derrick Brandt & David Miller,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34561,1,Rupert Maragh,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34564,1,Sugarland Llc Equine Etiquette,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34566,1,George Doetsch,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34568,0,Hillwood Stables Llc,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
@@ -3649,8 +3696,10 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 34621,1,Tristar Racing,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34645,1,Miller Racing Llc,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34662,1,Maurice Mowatt,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34672,1,Shanalee Johnson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34673,2,H & E Ranch,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34694,1,Tanma Corp.,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
+34695,1,Preservation Farm,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34717,1,Brandywine Farm,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34725,2,Brian Fraley Dvm & Allen Poindexter,,,,,,,,,,,,,,1,1,2021-05-17 07:13:21
 34754,1,Kings And Queens Farm,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
@@ -3662,7 +3711,40 @@ Id,Type,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,P
 34811,2,Sean Curtin & Robert Losey,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34845,2,Parrish Hill Farm & Ashford Stud,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
 34846,1,Stacy Jaede,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34891,1,Redman Farm Llc,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34893,1,Fazio Stable,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 34909,1,Arindel,,,,,,,,,,,,,,1,1,2022-10-15 16:53:01
+34911,2,Victoria Debenedicty & Alexandra Bell,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34918,1,Orlyana Farm,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34919,2,Mr. & Mrs. Grant L. Whitmer,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34920,2,Dr. Rick Erwin & Janet Erwin,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34921,1,Anthony Lopez,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34934,1,Doyl Johnson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34937,2,Sequel Stallions Ny & Stonestreet Thoroughbred Holdings Llc,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34938,0,Picero Farms Llc,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34939,1,Little'S Farm Llc,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34940,1,John Liviakis,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34947,1,Glenn Sorgenstein,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+34958,1,Serdar Vehdi Hakan Keles,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35003,2,Cynthia Bartkowski & Scott Bunker,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35013,1,Ted Server,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35037,1,Fleur De Lis Stable,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35046,1,Global Thoroughbreds,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35058,1,"Sovereign Farm, Llc",,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35068,2,Emerald Q Partners Inc & Tcr Ranch,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35069,0,Coteau Grove Farms Llc,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35071,1,Tracy Egan,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35072,1,Frederick And May Construction,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35073,2,Judy Bassett & Beth Bayer,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35081,2,Robert Low & Lowana Low,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35086,2,Steven Nicholson & Brandi Nicholson,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35087,1,Alexander Groves Thoroughbreds,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35089,2,Helen Barbazon & Joseph Barbazon,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35093,2,"Bill Adair, Phyllis Adair & Connie Brown",,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35094,1,Goldmark Farm,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35108,1,International Equities Holding Inc.,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35113,0,Colts Mek Stables,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
+35126,1,Mario Lorito,,,,,,,,,,,,,,1,1,2024-04-18 12:45:41
 62702,1,"Baccas, Imran",,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 72699,0,Y-Lo Racing Stables Llc,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35
 73993,1,Mr. Hazel Wetherington,,,,,,,,,,,,,,1,1,2020-08-21 06:52:35

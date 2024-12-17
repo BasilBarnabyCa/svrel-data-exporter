@@ -32,6 +32,40 @@
       "created_at": "CreatedAt"
     }
   },
+  "Sires": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM sires",
+    "enum_columns": ["gender_id"],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "jrc_imported_id": "JrcId",
+      "name": "Name",
+      "country_bred_id": "CountryBredId",
+      "color_id": "ColorId",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
+  "Dams": {
+    "enabled": true,
+    "title_case_column_names_enabled": false,
+    "sql_query": "SELECT * FROM dams",
+    "enum_columns": ["gender_id"],
+    "exclude_columns": ["user_id", "updated_at"],
+    "title_case_columns": [],
+    "rename_columns": {
+      "id": "Id",
+      "jrc_imported_id": "JrcId",
+      "name": "Name",
+      "country_bred_id": "CountryBredId",
+      "color_id": "ColorId",
+      "enabled": "IsEnabled",
+      "created_at": "CreatedAt"
+    }
+  },
   "HorseStatistics": {
     "enabled": true,
     "title_case_column_names_enabled": false,

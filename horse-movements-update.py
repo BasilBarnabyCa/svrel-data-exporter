@@ -1,45 +1,59 @@
 import pandas as pd
 import os
 import glob
-import logging
-from datetime import datetime
+import re
 from logger_setup import setup_loggers
 
 # Initialize loggers
 general_logger, error_logger = setup_loggers()
 
-# Directory where the chunks are located
+# Directory containing CSV chunk files
 directory_path = "exports/csvs/horse-config"
 
-# Columns to clean up
-columns_to_clean = ['ArrivalTransporterName']  # Add more column names as needed
+# Patterns to clean up
+patterns_to_replace = [r'&amp;', r'&AMP;', r';']  # Add other patterns if necessary
 
-# Patterns to replace in the columns
-patterns_to_replace = [r'&amp;', r'&AMP;', r';', r'\'']  # Use raw strings for regex patterns
+def clean_value(value):
+    """Clean and sanitize cell values."""
+    if pd.isna(value) or value == '':  # Handle NULL or empty values
+        return None
+    try:
+        value = str(value)
+        # Remove unwanted patterns
+        value = re.sub('|'.join(patterns_to_replace), '', value)
+        # Remove newlines and carriage returns
+        value = re.sub(r'[\n\r]+', ' ', value)
+        # Remove or escape backslashes
+        value = value.replace('\\', '')
+        # Escape single quotes
+        value = value.replace("'", "''")
+        # Strip leading/trailing spaces
+        return value.strip()
+    except Exception as e:
+        error_logger.error(f"Error cleaning value: {value} - {e}")
+        return None
 
 try:
-    # Get a list of all chunk files in the directory
+    # Find all CSV files matching the pattern
     chunk_files = glob.glob(os.path.join(directory_path, "HorseMovements_chunk_*.csv"))
-    print(chunk_files)
+    general_logger.info(f"Found chunk files: {chunk_files}")
 
-    # Iterate over all chunk files
     for file_path in chunk_files:
-        # Load the CSV file
-        df = pd.read_csv(file_path)
+        general_logger.info(f"Processing file: {file_path}")
+        try:
+            # Read the CSV file
+            df = pd.read_csv(file_path)
 
-        # Iterate over each column to clean
-        for column_to_clean in columns_to_clean:
-            # Check if the column exists in the DataFrame
-            if column_to_clean in df.columns:
-                # Cleanup the column by replacing patterns with an empty string
-                for pattern in patterns_to_replace:
-                    # Using regex=True to handle all occurrences of the pattern
-                    df[column_to_clean] = df[column_to_clean].str.replace(pattern, '', regex=True)
+            # Clean all object (string) columns
+            for col in df.select_dtypes(include=['object']).columns:
+                df[col] = df[col].apply(clean_value)
 
-        # Save the updated DataFrame back to a CSV file
-        df.to_csv(file_path, index=False)
+            # Save the cleaned data back to the same file
+            df.to_csv(file_path, index=False)
+            general_logger.info(f"Cleaned file saved: {file_path}")
 
-        general_logger.info(f"Cleaned up patterns from specified columns and saved to: {file_path}")
+        except Exception as e:
+            error_logger.error(f"Error processing file {file_path}: {e}", exc_info=True)
 
 except Exception as e:
-    error_logger.error("Error processing chunk files", exc_info=True)
+    error_logger.error(f"Fatal error during cleanup: {e}", exc_info=True)

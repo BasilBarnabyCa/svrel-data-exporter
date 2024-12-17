@@ -1,4 +1,4 @@
-Id,TrainerId,Title,FirstName,LastName,MiddleName,Suffix,Alias,DateOfBirth,Graduated,NationalityCountryId,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,Phone2,Email,ImagePath,ImageMimeType,ImageExtension,Comment,IsActive,IsEnabled,CreatedAt,IsBanned
+Id,TrainerId,Title,FirstName,LastName,MiddleName,Suffix,Alias,DateOfBirth,Graduated,NationalityCountryId,Address1,Address2,CityTown,StateProvinceId,ZipcodePostal,CountryId,Phone1,Phone2,Email,ImagePath,ImageMimeType,ImageExtension,Comment,IsActive,IsEnabled,CreatedAt,IsBanned
 1,14574.0,,George,Duhaney,Anthony ..,,,1958-12-16,1,,,,,,,,,,,,,,,0,1,,0
 2,,,Emerald,Montique,Richmond,,,1955-04-24,1,,,,,,,,,,,,,,,0,1,,0
 3,1869.0,,Anthony,Coleman,Basil,,,1952-12-02,1,,,,,,,,,,,,,,,0,1,,0

@@ -1,4 +1,15 @@
 INSERT INTO `StartingGateParts` (`Id`, `Name`, `Type`, `Description`, `IsEnabled`, `CreatedAt`) VALUES
-(1, 'Front Left Door', 'Stall', 'Front left door', 1, '2023-05-20 09:46:57'),
-(2, 'Front Right Door', 'Stall', 'Front right door', 1, '2023-05-20 09:47:10'),
-(3, 'Font Left Rubber', 'Stall', 'Font left rubber', 1, '2023-05-23 10:51:24');
+(1, 'Back Left Door', 'Stall', 'Back left door', 1, '2023-05-29 03:13:12'),
+(2, 'Back Right Door', 'Stall', 'Back right door', 1, '2023-05-29 03:13:22'),
+(3, 'Front Left Door', 'Stall', 'Front left door', 1, '2023-05-29 03:13:31'),
+(4, 'Front Right Door', 'Stall', 'Front right door', 1, '2023-05-29 03:13:40'),
+(5, 'Front Gate Left Upper Bearing', 'Stall', 'Front gate left upper bearing', 1, '2023-05-29 03:14:27'),
+(6, 'Front Gate Right Upper Bearing', 'Stall', 'Front gate right upper bearing', 1, '2023-05-29 03:14:49'),
+(7, 'Front Gate Left Lower Bearing', 'Stall', 'Front gate left lower bearing', 1, '2023-05-29 03:15:16'),
+(8, 'Front Gate Right Lower Bearing', 'Stall', 'Front gate right lower bearing', 1, '2023-05-29 03:15:44'),
+(9, 'Latch Left', 'Stall', 'Latch left', 1, '2023-05-29 03:16:14'),
+(10, 'Latch Right', 'Stall', 'Latch right', 1, '2023-05-29 03:16:27'),
+(11, 'Catch Left', 'Stall', 'Catch Right', 1, '2023-05-29 03:16:39'),
+(12, 'Magnetic Switch', 'Stall', 'Magnetic switch', 1, '2023-05-29 03:17:03'),
+(13, 'Magnetic Latching Arm', 'Stall', 'Magnetic latching arm', 1, '2023-05-29 03:17:25'),
+(14, 'Door Switch', 'Stall', 'Door switch', 1, '2024-03-21 07:15:52');

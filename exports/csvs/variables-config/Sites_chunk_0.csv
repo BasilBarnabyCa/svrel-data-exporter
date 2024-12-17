@@ -1,2 +1,2 @@
-Id,Name,Address1,Address2,CityTown,StateId,ZipcodePostal,CountryId,Phone1,Phone2,IsEnabled,CreatedAt
-1,Caymanas Park,,,,,,,,,1,2021-05-22 09:03:56
+Id,Name,Address1,Address2,CityTown,StateProvinceId,ZipcodePostal,CountryId,Phone1,Phone2,IsEnabled,CreatedAt
+1,Caymanas Park,,,,10,,11,,,1,2021-05-22 09:03:56
