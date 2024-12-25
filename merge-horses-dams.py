@@ -106,9 +106,9 @@ try:
         aligned_dam_df = align_and_clean_columns(dam_df, sample_horse_df)
 
         # Set mandatory column data for Dams
-        aligned_dam_df["Type"] = 0
+        aligned_dam_df["Type"] = 1
         aligned_dam_df["MicrochipType"] = 0
-        aligned_dam_df["Gender"] = 5
+        aligned_dam_df["Gender"] = 4
 
         # Generate a new chunk filename
         new_chunk_number = starting_dam_chunk_number + i

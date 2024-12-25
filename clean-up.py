@@ -19,20 +19,6 @@ scripts = [
 	'horse-gender-tracking-update.py',
 ]
 
-# scripts = [
-#     'breeders-update.py',
-#     'grooms-update.py',
-# 	'horses-update.py',
-# 	'workouts-update.py',
-# 	'starting-gate-stall-parts-state-logs-update.py',
-# 	'horse-deaths-update.py',
-# 	'horse-health-tracking-update.py',
-# 	'horse-movements-update.py',
-# 	'horse-race-duplicates.py',
-# 	'horse-gender-tracking-update.py',
-# 	'races-update.py'
-# ]
-
 general_logger.info("\nStarting cleanup...")
 
 # Loop through the scripts and execute each one
