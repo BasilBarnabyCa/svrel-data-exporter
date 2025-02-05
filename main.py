@@ -33,7 +33,7 @@ db_config_sql_execution = {
 }
 
 # VARIABLES
-chunk_size = 10000
+chunk_size = 100000
 config_dir = "config"
 export_dirs = ["exports", "exports/csvs", "exports/inserts"]
 sql_scripts_dir = 'exports/inserts'

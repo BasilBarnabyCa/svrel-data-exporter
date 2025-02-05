@@ -5,6 +5,6 @@
 config.json
 /env
 /data
-/logs
-# /exports
+/logs/*
+/exports/*
 __pycache__/

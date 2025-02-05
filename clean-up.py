@@ -6,17 +6,22 @@ general_logger, error_logger = setup_loggers()
 
 # List of scripts you want to execute
 scripts = [
-    'breeders-update.py',
-    'grooms-update.py',
-	'horses-update.py',
-    'merge-horses-sires.py',
-	'merge-horses-dams.py',
-	'horse-duplicate.py',
-	'horse-deaths-update.py',
-	'horse-health-tracking-update.py',
-	'horse-movements-update.py',
-	'horse-race-duplicates.py',
-	'horse-gender-tracking-update.py',
+    'cleanup_scripts/breeders-update.py',
+    'cleanup_scripts/grooms-update.py',
+    'cleanup_scripts/drivers-update.py',
+	'cleanup_scripts/horses-update.py',
+	'cleanup_scripts/horse-microchip-update.py',
+    'cleanup_scripts/merge-horses-sires.py',
+	'cleanup_scripts/merge-horses-dams.py',
+	'cleanup_scripts/horse-duplicate.py',
+	'cleanup_scripts/horse-deaths-update.py',
+	'cleanup_scripts/horse-health-tracking-update.py',
+	'cleanup_scripts/horse-offsite-tracking-update.py',
+	'cleanup_scripts/horse-race-duplicates.py',
+	'cleanup_scripts/horse-gender-tracking-update.py',
+	'cleanup_scripts/workouts-update.py',
+	'cleanup_scripts/users-update.py',
+	'cleanup_scripts/stalls-update.py',
 ]
 
 general_logger.info("\nStarting cleanup...")

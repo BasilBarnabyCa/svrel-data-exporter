@@ -1,451 +1,437 @@
-Id,HorseId,DeathDescription,VetId,DeceasedAt,CreatedAt
-1,20141052,Accident with Saratoga Sight,9,2019-12-21,2020-08-21 06:15:50
-2,20134333,An accident with Winter is coming,9,2019-12-21,2020-08-21 06:16:45
-3,20140131,Euthanized,11,2019-01-05,2020-08-21 07:11:18
-4,20131296,Euthanasia,11,2019-02-09,2020-08-21 07:11:57
-5,20163087,Euthanasia,11,2019-03-06,2020-08-21 07:12:24
-6,20123545,Euthanasia,11,2019-05-18,2020-08-21 07:12:57
-7,20160859,Euthanasia,11,2019-06-15,2020-08-21 07:13:27
-8,20160960,Euthanasia,11,2019-06-15,2020-08-21 07:13:56
-9,20102906,Euthanasia,11,2019-06-15,2020-08-21 07:14:19
-10,20110753,Euthanasia,11,2019-07-06,2020-08-21 07:14:53
-11,20132955,Euthanasia,11,2019-07-23,2020-08-21 07:15:29
-12,20143298,Euthanasia,11,2019-08-01,2020-08-21 07:15:55
-13,20141163,Euthanasia,11,2019-08-30,2020-08-21 07:16:20
-14,20121016,Euthanasia,11,2019-09-04,2020-08-21 07:16:44
-15,20113294,Euthanasia,11,2019-09-25,2020-08-21 07:17:14
-16,20131983,Euthanasia,11,2019-10-05,2020-08-21 07:17:50
-17,20152542,Euthanasia,11,2019-05-10,2020-08-21 07:18:13
-18,20150922,Euthanasia,11,2019-12-06,2020-08-21 07:19:00
-19,20170115,Euthanasia,11,2019-12-07,2020-08-21 07:19:31
-20,20162575,Euthanasia,11,2019-12-14,2020-08-21 07:19:56
-21,20151232,Euthanasia,11,2019-12-18,2020-08-21 07:20:17
-22,20152537,Euthanasia,11,2019-12-18,2020-08-21 07:20:35
-23,20132455,Euthanasia,11,2019-12-24,2020-08-21 07:21:12
-24,20162853,Euthanasia,11,2019-12-28,2020-08-21 07:21:39
-25,20141996,Euthanasia,11,2019-12-26,2020-08-21 07:22:00
-26,20160046,Euthanasia,11,2019-12-28,2020-08-21 07:22:18
-27,20152204,Euthanasia,11,2020-01-01,2020-08-21 07:22:40
-28,20162499,Euthanasia,11,2020-01-04,2020-08-21 07:22:58
-29,20132677,Euthanasia,11,2020-01-25,2020-08-21 07:23:23
-30,20134015,Euthanasia,11,2020-02-26,2020-08-21 07:23:48
-31,20170771,Euthanasia,11,2020-06-27,2020-08-21 07:24:09
-32,20171223,Euthanasia,11,2020-08-06,2020-08-21 07:25:23
-33,20151843,Euthanasia,11,2020-08-15,2020-08-21 07:26:12
-34,20150048,Date of death undetermined,9,2020-05-08,2020-09-08 10:20:09
-55,20161210,Sick,11,2020-09-09,2020-09-11 07:27:28
-56,20110293,Died of Colic,9,2020-01-05,2020-09-11 13:30:03
-57,20143016,Sick (Septic),9,2020-01-09,2020-09-11 13:31:00
-58,20140691,Euthanasia,9,2020-01-13,2020-09-11 13:38:36
-59,20171263,Euthanized due to injury,9,2020-01-20,2020-09-11 13:44:00
-61,20171410,Sudden death at exercise,9,2020-02-20,2020-09-11 14:08:28
-62,20143389,Colic,9,2020-02-11,2020-09-11 14:10:09
-63,20162560,Sick,9,2020-02-26,2020-09-11 14:11:07
-64,20170337,Fractured Fetlock,9,2020-02-29,2020-09-12 13:18:22
-65,20150013,Sudden death at exercise,9,2020-02-29,2020-09-12 13:21:48
-66,20131978,Sick,9,2020-03-01,2020-09-12 13:23:54
-67,20153589,Sudden death at exercise,9,2020-03-01,2020-09-12 13:25:10
-68,20160177,Sick,9,2020-03-05,2020-09-12 13:28:52
-69,20151252,Colic,9,2020-03-03,2020-09-12 13:29:34
-70,20162439,Colic,9,2020-03-12,2020-09-12 13:30:15
-71,20143450,Sick,9,2020-03-21,2020-09-12 13:30:47
-72,20123696,Colic,9,2020-04-06,2020-09-12 13:31:52
-73,20162722,Sudden death at exercise,9,2020-04-25,2020-09-12 13:33:49
-74,20142155,Euthanised,9,2020-04-27,2020-09-12 13:34:57
-75,20161549,Colic,9,2020-05-12,2020-09-12 13:36:14
-76,20152082,Trauma in stable,9,2020-05-04,2020-09-12 13:37:15
-77,20152017,Colic,9,2020-05-20,2020-09-12 13:39:19
-78,20140277,Colic,9,2020-05-29,2020-09-12 13:40:22
-79,20162328,Trauma in stable,9,2020-06-08,2020-09-12 13:41:32
-80,20134257,Euthanized,9,2020-06-10,2020-09-12 13:42:11
-81,20134257,Euthanized,9,2020-06-10,2020-09-12 13:42:15
-82,20130431,Colic,9,2020-06-30,2020-09-12 13:44:22
-83,20143490,"Sick,  insect bite",9,2020-07-01,2020-09-12 13:50:10
-84,20142413,Colic,9,2020-07-03,2020-09-12 13:54:33
-85,20140924,Sick,9,2020-07-08,2020-09-12 13:56:05
-86,20151590,Colic,9,2020-07-19,2020-09-12 13:57:25
-87,20073697,Colic,9,2020-07-21,2020-09-12 13:58:32
-88,20160122,Colic,9,2020-07-28,2020-09-12 13:59:04
-89,20132268,Euthanized,9,2020-07-29,2020-09-12 13:59:56
-90,20140737,Colic,9,2020-08-01,2020-09-12 14:00:37
-91,20110899,"Euthanized, due to injury in stall.",9,2020-08-04,2020-09-12 14:01:54
-92,20161109,Colic,9,2020-08-06,2020-09-12 14:02:55
-93,20162631,Sick,9,2020-08-14,2020-09-12 14:03:49
-94,20133518,"Euthanized, due to injury in stall.",9,2020-08-26,2020-09-12 14:06:29
-95,20151994,Tied up,9,2020-08-28,2020-09-12 14:07:23
-96,20162979,Sudden death after race.,9,2020-08-29,2020-09-12 14:08:06
-97,20160344,Sick,9,2020-09-04,2020-09-12 14:09:26
-98,20171112,Euthanized,9,2020-09-06,2020-09-12 14:10:51
-99,20160091,Euthanized: distal cannon bone fracture of the right forelimb,11,2020-10-03,2020-10-03 13:55:08
-100,20172644,fracture at the right forelimb carpus with disruption of the collateral ligaments (euthanized),11,2020-10-03,2020-10-09 06:36:14
-101,20151505,disruption of the suspensory apparatus on the right forelimb,11,2020-10-24,2020-10-24 13:11:01
-102,20170711,Complete disarticulation of the left forelimb fetlock joint. Euthanized,11,2020-10-25,2020-10-26 02:14:07
-103,20160980,Sudden death during exercise,11,2019-08-06,2020-11-03 08:31:20
-104,20172477,collapsed and died while pulling up during exercise,11,2020-11-10,2020-11-11 05:34:07
-105,20161578,Fractured the cannon bone on the left forelimb and was euthanized.,11,2020-11-07,2020-11-11 05:38:05
-106,20160955,fracture at the level of the proximal aspect of the pastern with possible disruption of the suspensory apparatus on the left forelimb,11,2020-11-14,2020-11-14 11:42:46
-107,20131438,euthanized due to stepping out of hoof secondary to laminitis,11,2020-11-17,2020-11-18 05:17:51
-108,20151676,euthanized due to fracture at the fetlock joint secondary to joint instability following insect bite,11,2020-11-17,2020-11-18 05:19:30
-109,20161821,euthanized secondary to laminitis in the right forelimb,11,2020-11-23,2020-11-23 06:30:31
-110,20151570,Collapsed and died during the race. Likely due to cardiovascular Collapse,11,2020-11-29,2020-11-29 10:32:49
-111,20152815,"Horse was in distress the night after racing, died the following morning",11,2020-11-30,2020-12-01 04:04:03
-112,20151494,Humerus fracture on the left forelimb during exercise and was euthanized,11,2020-12-04,2020-12-05 06:09:00
-113,20112979,"Euthanized, unresponsive to tick fever treatment",11,2020-12-10,2020-12-11 07:03:46
-114,20172311,"euthanized due to injury sustained on the 13/12/2020 during race.
+HorseId,DeathDescription,VetId,DeceasedAt,CreatedAt
+20141052,Accident with Saratoga Sight,9,2019-12-21,2020-08-21 06:15:50
+20134333,An accident with Winter is coming,9,2019-12-21,2020-08-21 06:16:45
+20140131,Euthanized,11,2019-01-05,2020-08-21 07:11:18
+20131296,Euthanasia,11,2019-02-09,2020-08-21 07:11:57
+20163087,Euthanasia,11,2019-03-06,2020-08-21 07:12:24
+20123545,Euthanasia,11,2019-05-18,2020-08-21 07:12:57
+20160859,Euthanasia,11,2019-06-15,2020-08-21 07:13:27
+20160960,Euthanasia,11,2019-06-15,2020-08-21 07:13:56
+20102906,Euthanasia,11,2019-06-15,2020-08-21 07:14:19
+20110753,Euthanasia,11,2019-07-06,2020-08-21 07:14:53
+20132955,Euthanasia,11,2019-07-23,2020-08-21 07:15:29
+20143298,Euthanasia,11,2019-08-01,2020-08-21 07:15:55
+20141163,Euthanasia,11,2019-08-30,2020-08-21 07:16:20
+20121016,Euthanasia,11,2019-09-04,2020-08-21 07:16:44
+20113294,Euthanasia,11,2019-09-25,2020-08-21 07:17:14
+20131983,Euthanasia,11,2019-10-05,2020-08-21 07:17:50
+20152542,Euthanasia,11,2019-05-10,2020-08-21 07:18:13
+20150922,Euthanasia,11,2019-12-06,2020-08-21 07:19:00
+20170115,Euthanasia,11,2019-12-07,2020-08-21 07:19:31
+20162575,Euthanasia,11,2019-12-14,2020-08-21 07:19:56
+20151232,Euthanasia,11,2019-12-18,2020-08-21 07:20:17
+20152537,Euthanasia,11,2019-12-18,2020-08-21 07:20:35
+20132455,Euthanasia,11,2019-12-24,2020-08-21 07:21:12
+20162853,Euthanasia,11,2019-12-28,2020-08-21 07:21:39
+20141996,Euthanasia,11,2019-12-26,2020-08-21 07:22:00
+20160046,Euthanasia,11,2019-12-28,2020-08-21 07:22:18
+20152204,Euthanasia,11,2020-01-01,2020-08-21 07:22:40
+20162499,Euthanasia,11,2020-01-04,2020-08-21 07:22:58
+20132677,Euthanasia,11,2020-01-25,2020-08-21 07:23:23
+20134015,Euthanasia,11,2020-02-26,2020-08-21 07:23:48
+20170771,Euthanasia,11,2020-06-27,2020-08-21 07:24:09
+20171223,Euthanasia,11,2020-08-06,2020-08-21 07:25:23
+20151843,Euthanasia,11,2020-08-15,2020-08-21 07:26:12
+20150048,Date of death undetermined,9,2020-05-08,2020-09-08 10:20:09
+20161210,Sick,11,2020-09-09,2020-09-11 07:27:28
+20110293,Died of Colic,9,2020-01-05,2020-09-11 13:30:03
+20143016,Sick (Septic),9,2020-01-09,2020-09-11 13:31:00
+20140691,Euthanasia,9,2020-01-13,2020-09-11 13:38:36
+20171263,Euthanized due to injury,9,2020-01-20,2020-09-11 13:44:00
+20171410,Sudden death at exercise,9,2020-02-20,2020-09-11 14:08:28
+20143389,Colic,9,2020-02-11,2020-09-11 14:10:09
+20162560,Sick,9,2020-02-26,2020-09-11 14:11:07
+20170337,Fractured Fetlock,9,2020-02-29,2020-09-12 13:18:22
+20150013,Sudden death at exercise,9,2020-02-29,2020-09-12 13:21:48
+20131978,Sick,9,2020-03-01,2020-09-12 13:23:54
+20153589,Sudden death at exercise,9,2020-03-01,2020-09-12 13:25:10
+20160177,Sick,9,2020-03-05,2020-09-12 13:28:52
+20151252,Colic,9,2020-03-03,2020-09-12 13:29:34
+20162439,Colic,9,2020-03-12,2020-09-12 13:30:15
+20143450,Sick,9,2020-03-21,2020-09-12 13:30:47
+20123696,Colic,9,2020-04-06,2020-09-12 13:31:52
+20162722,Sudden death at exercise,9,2020-04-25,2020-09-12 13:33:49
+20142155,Euthanised,9,2020-04-27,2020-09-12 13:34:57
+20161549,Colic,9,2020-05-12,2020-09-12 13:36:14
+20152082,Trauma in stable,9,2020-05-04,2020-09-12 13:37:15
+20152017,Colic,9,2020-05-20,2020-09-12 13:39:19
+20140277,Colic,9,2020-05-29,2020-09-12 13:40:22
+20162328,Trauma in stable,9,2020-06-08,2020-09-12 13:41:32
+20134257,Euthanized,9,2020-06-10,2020-09-12 13:42:11
+20130431,Colic,9,2020-06-30,2020-09-12 13:44:22
+20143490,"Sick,  insect bite",9,2020-07-01,2020-09-12 13:50:10
+20142413,Colic,9,2020-07-03,2020-09-12 13:54:33
+20140924,Sick,9,2020-07-08,2020-09-12 13:56:05
+20151590,Colic,9,2020-07-19,2020-09-12 13:57:25
+20073697,Colic,9,2020-07-21,2020-09-12 13:58:32
+20160122,Colic,9,2020-07-28,2020-09-12 13:59:04
+20132268,Euthanized,9,2020-07-29,2020-09-12 13:59:56
+20140737,Colic,9,2020-08-01,2020-09-12 14:00:37
+20110899,"Euthanized, due to injury in stall.",9,2020-08-04,2020-09-12 14:01:54
+20161109,Colic,9,2020-08-06,2020-09-12 14:02:55
+20162631,Sick,9,2020-08-14,2020-09-12 14:03:49
+20133518,"Euthanized, due to injury in stall.",9,2020-08-26,2020-09-12 14:06:29
+20151994,Tied up,9,2020-08-28,2020-09-12 14:07:23
+20162979,Sudden death after race.,9,2020-08-29,2020-09-12 14:08:06
+20160344,Sick,9,2020-09-04,2020-09-12 14:09:26
+20171112,Euthanized,9,2020-09-06,2020-09-12 14:10:51
+20160091,Euthanized: distal cannon bone fracture of the right forelimb,11,2020-10-03,2020-10-03 13:55:08
+20172644,fracture at the right forelimb carpus with disruption of the collateral ligaments (euthanized),11,2020-10-03,2020-10-09 06:36:14
+20151505,disruption of the suspensory apparatus on the right forelimb,11,2020-10-24,2020-10-24 13:11:01
+20170711,Complete disarticulation of the left forelimb fetlock joint. Euthanized,11,2020-10-25,2020-10-26 02:14:07
+20160980,Sudden death during exercise,11,2019-08-06,2020-11-03 08:31:20
+20172477,collapsed and died while pulling up during exercise,11,2020-11-10,2020-11-11 05:34:07
+20161578,Fractured the cannon bone on the left forelimb and was euthanized.,11,2020-11-07,2020-11-11 05:38:05
+20160955,fracture at the level of the proximal aspect of the pastern with possible disruption of the suspensory apparatus on the left forelimb,11,2020-11-14,2020-11-14 11:42:46
+20131438,euthanized due to stepping out of hoof secondary to laminitis,11,2020-11-17,2020-11-18 05:17:51
+20151676,euthanized due to fracture at the fetlock joint secondary to joint instability following insect bite,11,2020-11-17,2020-11-18 05:19:30
+20161821,euthanized secondary to laminitis in the right forelimb,11,2020-11-23,2020-11-23 06:30:31
+20151570,Collapsed and died during the race. Likely due to cardiovascular Collapse,11,2020-11-29,2020-11-29 10:32:49
+20152815,"Horse was in distress the night after racing, died the following morning",11,2020-11-30,2020-12-01 04:04:03
+20151494,Humerus fracture on the left forelimb during exercise and was euthanized,11,2020-12-04,2020-12-05 06:09:00
+20112979,"Euthanized, unresponsive to tick fever treatment",11,2020-12-10,2020-12-11 07:03:46
+20172311,"euthanized due to injury sustained on the 13/12/2020 during race.
 Left forelimb suspected sesamoid fracture",11,2020-12-15,2020-12-15 05:58:25
-115,20150033,"euthanized due to injury sustained on the 12/12/2020 during race.
+20150033,"euthanized due to injury sustained on the 12/12/2020 during race.
 Fractured both sesamoids on the left forelimb",11,2020-12-15,2020-12-15 05:59:38
-116,20171394,Sudden death during exercise,11,2020-12-17,2020-12-17 05:32:21
-117,20160460,euthanized secondary to swollen in infected hindlimbs following injuries sustained after racing on the 12/12/2020,11,2020-12-21,2020-12-21 06:41:30
-118,20172119,euthanized due to injury on the left forelimb (fetlock) during race on the 28/11/2020,11,2021-01-08,2021-01-08 05:58:11
-119,20171718,found dead in stall,11,2020-12-27,2021-01-09 07:14:02
-120,20123292,colic suspected gastrointestinal torsion,11,2021-01-19,2021-01-19 11:11:11
-121,99990058,colic,11,2020-12-27,2021-01-21 12:06:37
-122,99990113,colitis,11,2021-03-02,2021-03-04 05:50:33
-123,20180315,Distal cannon fracture of the left forelimb. Occurred at the round mile,11,2021-03-07,2021-03-07 07:23:33
-124,20182713,sudden death during exercise,11,2021-03-09,2021-03-12 01:21:58
-125,20152471,bled and died during exercise,11,2021-03-14,2021-03-14 07:58:38
-126,20131236,"swollen and infected right hock
+20171394,Sudden death during exercise,11,2020-12-17,2020-12-17 05:32:21
+20160460,euthanized secondary to swollen in infected hindlimbs following injuries sustained after racing on the 12/12/2020,11,2020-12-21,2020-12-21 06:41:30
+20172119,euthanized due to injury on the left forelimb (fetlock) during race on the 28/11/2020,11,2021-01-08,2021-01-08 05:58:11
+20171718,found dead in stall,11,2020-12-27,2021-01-09 07:14:02
+20123292,colic suspected gastrointestinal torsion,11,2021-01-19,2021-01-19 11:11:11
+99990058,colic,11,2020-12-27,2021-01-21 12:06:37
+99990113,colitis,11,2021-03-02,2021-03-04 05:50:33
+20180315,Distal cannon fracture of the left forelimb. Occurred at the round mile,11,2021-03-07,2021-03-07 07:23:33
+20182713,sudden death during exercise,11,2021-03-09,2021-03-12 01:21:58
+20152471,bled and died during exercise,11,2021-03-14,2021-03-14 07:58:38
+20131236,"swollen and infected right hock
  ~1 month",11,2021-03-18,2021-03-18 06:25:15
-127,20123494,Euthanized. Proximal cannon fracture,11,2021-03-20,2021-03-20 10:13:49
-128,20171854,"euthanized due to laminitis in the keft hindlimb and subsequent ""stepping out"" of hoof",11,2021-03-23,2021-03-23 07:42:07
-129,20142195,euthanized,11,2021-03-26,2021-03-29 06:06:54
-130,20160935,euthanized due to open fracture at the level of the fetlock joint on the right forelimb,11,2021-03-30,2021-03-31 07:06:42
-131,20180380,died shortly after returning to stable after being trailered off the track. Suspected rupture of the femoral artery and subsequently went into cardiovascular shock,11,2021-03-30,2021-03-31 07:08:24
-132,20123838,euthanized fx right forelimb prox. Cannon,11,2021-04-07,2021-04-07 08:41:15
-133,20102375,Euthanized due to chronic right forelimb lameness,11,2021-04-12,2021-04-12 08:01:47
-134,20161609,sudden death after racing,11,2021-04-24,2021-04-24 05:45:30
-135,20160713,euthanized due to laminitis in hindlimbs,11,2021-05-03,2021-05-03 08:12:01
-136,20161614,euthanized right forelimb scapula fx,11,2021-05-05,2021-05-05 06:43:35
-137,20120660,found dead in stall,11,2021-05-08,2021-05-11 08:09:26
-138,99990273,antibiotic associated diarrhea into a colitis and possible endotoxemia,11,2021-05-12,2021-05-12 07:27:43
-139,20172013,colic,11,2021-05-22,2021-05-29 07:02:53
-140,20171521,Sudden death while doing pace work. Died at the ~6 furlong marker,11,2021-06-01,2021-06-01 07:13:59
-141,20170019,died in stall,11,2021-06-01,2021-06-05 07:05:19
-142,20170019,died in stall,11,2021-06-01,2021-06-05 07:05:22
-143,20170786,left hindlimb femoral artery laceration leading to exsanguination,11,2021-06-17,2021-06-21 12:02:49
-144,20180648,colitis,27,2021-07-01,2021-07-02 05:41:07
-145,20143536,Hit by car,27,2021-07-01,2021-07-02 05:42:22
-146,20132253,Colic,11,2021-06-30,2021-07-03 10:58:43
-147,20182400,p1-p2 disarticulation right forelimb,11,2021-07-05,2021-07-05 12:28:42
-148,20141572,euthanized,11,2021-06-22,2021-07-10 07:59:24
-149,20171970,euthanized due to fx of the left forelimb sesamoid,11,2021-07-13,2021-07-16 06:17:24
-150,99990425,Colic,11,2021-06-25,2021-07-20 07:14:45
-151,20152264,Sick,11,2021-07-20,2021-07-21 08:02:16
-152,20161750,"tied up the previous morning, treatment history unknown",11,2021-07-24,2021-07-24 10:27:05
-153,20180906,euthanized due to carpal fracture which occurred while racing on the 07/02/2021,11,2021-07-30,2021-07-30 09:02:33
-154,20160900,Hit head and died in stall,11,2021-08-09,2021-08-09 13:30:06
-155,20131781,Colic,11,2021-08-09,2021-08-09 13:30:43
-156,20151267,colic'd the night of the 15/08/2021 and died on the 16th,11,2021-08-16,2021-08-17 07:33:34
-157,20081893,Open distal cannon fracture on the right forelimb,11,2021-08-21,2021-08-21 13:30:23
-158,20140777,colic,11,2021-09-01,2021-09-03 06:14:59
-159,20172417,sudden death during exercise,11,2021-09-05,2021-09-10 07:49:11
-160,20172255,colic,11,2021-09-05,2021-09-10 07:54:21
-161,20130951,euthanized septic right forelimb carpus,11,2021-09-11,2021-09-11 11:46:10
-162,20152880,head trauma in stall,11,2021-09-13,2021-09-15 07:49:53
-163,20161194,colic'd on the 19/09/2021,11,2021-09-20,2021-09-20 07:57:35
-164,20143849,euthanized due to laminitis and rotation of P3 in the left hindlimb,11,2021-09-19,2021-09-20 08:07:59
-165,20142877,Open mid cannon fracture of the right forelimb,11,2021-10-02,2021-10-02 10:17:48
-166,20131276,colic,11,2021-10-03,2021-10-04 07:25:38
-167,20182975,Euthanized due to inability to stand or see,11,2021-10-05,2021-10-05 05:25:05
-168,20171430,colic,11,2021-10-08,2021-10-08 05:56:14
-169,20151090,euthanized RF (fetlock),11,2021-10-09,2021-10-09 13:14:46
-170,20172275,left forelimb (open fetlock disarticulation),11,2021-10-09,2021-10-09 13:15:44
-171,20162353,Left forelimb closed distal radius fracture),11,2021-10-09,2021-10-09 13:16:27
-172,20162651,colic,11,2021-10-12,2021-10-14 08:17:53
-173,99990324,Colic. Suspected rupture with peritonitis,11,2021-10-15,2021-10-15 05:51:21
-174,20181327,Euthanized due to right hindlimb distal cannon fracture,11,2021-10-18,2021-10-19 02:05:44
-175,20121081,sudden death during exercise,11,2021-10-19,2021-10-19 07:57:49
-176,20142211,euthanized fx right forelimb mid cannon,11,2021-10-23,2021-10-23 09:21:03
-177,20161023,euthanized laminitis in both forelimbs,11,2021-10-28,2021-10-28 08:13:58
-178,20141981,euthanized,11,2021-10-28,2021-10-28 08:15:52
-179,20182248,"died in stable, respiratory tract infection",11,2021-10-27,2021-10-28 08:16:29
-180,20170857,found dead in stall,11,2021-11-06,2021-11-07 07:04:50
-181,20190217,Open p2 fracture. Euthanized,11,2021-10-28,2021-11-09 06:37:16
-182,99990466,sudden death during exercise,11,2021-11-13,2021-11-13 11:36:59
-183,20151414,euthanized due to open right forelimb disarticulation of the fetlock joint,11,2021-11-15,2021-11-15 12:00:57
-184,20182137,died from colic which started on the 15/11/2021,11,2021-11-17,2021-11-18 06:46:14
-186,20171758,Sudden Death during exercise. Blood observed from both nostrils. likely died due to EIPH,11,2021-11-19,2021-11-19 07:03:39
-187,20150235,euthanized due to open fracture at the fetlock (sesamoid),11,2021-11-20,2021-11-20 11:33:17
-188,99990149,Euthanized. Septic,11,2021-11-21,2021-11-21 12:22:50
-189,20161654,Euthanized due to poor response to treatment for colic,11,2021-12-04,2021-12-06 07:09:43
-190,20171303,Found dead in stall,11,2021-07-05,2021-12-08 08:36:11
-191,20160339,SICK,11,2021-07-09,2021-12-08 08:40:41
-192,20133972,colic,11,2021-12-05,2021-12-11 06:42:11
-193,20183134,Colic,11,2021-12-11,2021-12-11 12:37:24
-194,20130931,sudden death during race,11,2021-12-12,2021-12-12 11:34:02
-195,20170226,Open disarticulation of the right forelimb fetlock,11,2021-12-18,2021-12-18 12:04:06
-196,20180946,colic,11,2021-12-13,2021-12-23 11:38:02
-197,20143056,Euthanized right forelimb sesamoid fracture,11,2021-12-23,2021-12-23 11:43:24
-198,20161230,Bilateral forelimb fetlock disarticulation,11,2021-12-27,2021-12-27 12:37:12
-199,20161952,cause of death unknown due to lack of diagnostics. Bleeding continued from both nostrils,11,2021-12-27,2021-12-27 12:38:18
-200,20152239,Euthanized,11,2021-12-18,2021-12-29 06:03:58
-201,20170206,"found dead in stall, epistaxis observed",11,2021-12-17,2021-12-29 06:20:59
-202,20151303,cause of death unknown. horse died on farm,11,2021-11-29,2021-12-29 06:43:38
-203,20161316,right forelimb carpal fracture and destabilization of joint,11,2022-01-01,2022-01-01 11:56:26
-204,20172199,right forelimb carpal fracture,11,2022-01-13,2022-01-13 06:39:23
-205,20171450,"sudden death during race, EIPH with possible cardiovascular collapse",11,2022-01-16,2022-01-16 12:18:33
-206,20152113,Euthanized due to 3rd carpal bone fracture of the left forelimb,11,2022-01-21,2022-01-21 07:22:28
-207,20181170,Colic,11,2022-01-24,2022-01-27 06:56:05
-208,20172659,Euthanized fx right forlimb prox cannon. Left forelimb swollen...hx Shockwave therapy,11,2022-01-29,2022-01-29 07:01:25
-209,20171869,Femoral artery rupture,11,2021-09-24,2022-02-11 06:08:05
-210,20160768,"left forelimb fracture (fetlock, pos sesamoid fx)",11,2022-02-12,2022-02-12 12:10:45
-211,20181296,left forelimb mid cannon fracture,11,2022-02-19,2022-02-19 12:58:43
-212,20111018,Euthanized due to suspected right hindlimb hock fracture...no diagnostics done. limited range of motion of hock,11,2022-02-23,2022-02-23 06:13:01
-213,20141274,Died in stable. Emaciated,11,2022-02-22,2022-02-23 06:17:10
-214,20150553,sick. Elevated temperature. Found dead in stall in the evening,11,2022-02-17,2022-02-26 10:54:11
-215,99990375,sudden death during exercise,11,2022-02-26,2022-02-26 10:59:01
-216,20151156,Euthanized left forelimb fetlock fracture,11,2022-01-29,2022-03-02 06:34:52
-217,20152562,Sick,11,2021-12-30,2022-03-02 06:37:42
-218,20161972,found dead in stall (likely sepsis),11,2022-02-24,2022-03-02 06:56:04
-219,20172962,Colic,11,2022-01-09,2022-03-03 05:13:42
-220,20161341,euthanized fx distal cannon on the right forelimb,11,2022-03-05,2022-03-05 12:22:48
-221,20170948,Found dead in stable yard,11,2022-02-16,2022-03-10 06:38:52
-222,20121758,right forelimb proximal cannon fracture (open),11,2022-03-12,2022-03-12 11:46:45
-223,99990492,Sudden death during exercise,11,2022-03-15,2022-03-15 06:28:10
-224,20172755,Found dead in stall. likely colic,11,2022-03-14,2022-03-16 08:13:17
-225,20120155,Euthanized left forelimb fetlock fracture,11,2022-03-27,2022-04-03 12:52:57
-226,20150679,suspected electrocution,11,2022-04-09,2022-04-09 13:51:58
-227,20160273,drowned at sea,11,2022-04-09,2022-04-09 13:52:30
-228,20171283,found dead in stall. Likely self trauma,11,2022-04-18,2022-04-18 12:54:10
-229,20181049,Euthanized due to right hindlimb (tibia) fracture after flipping in gate,11,2022-04-30,2022-04-30 13:37:50
-230,20172482,Found dead in stall,11,2022-05-01,2022-05-03 06:25:31
-231,20151838,"Unable to stand, later found dead in stall",11,2022-05-01,2022-05-03 06:26:22
-232,99990049,"Found dead in stall, likely due to trauma",11,2022-05-02,2022-05-03 06:27:17
-233,20190151,euthanized right forelimb mid/prox cannon fracture,11,2022-05-08,2022-05-08 14:05:38
-234,20161598,Euthanized due to right forelimb fetlock fracture,11,2022-05-09,2022-05-10 05:52:51
-235,20142928,"Found dead in stall, neck swollen...suspected insect bite",11,2022-05-11,2022-05-11 07:11:09
-236,20181236,Found dead in stall,11,2022-05-15,2022-05-17 05:41:47
-237,20142433,Found dead in stall. History of hoof abscess on both hindlimb which progressed to laminitis,11,2022-05-20,2022-05-20 06:59:27
-238,20151510,Euthanized due to injury on the right forelimb fetlock,11,2022-05-22,2022-05-22 13:19:41
-239,20191976,Sudden death during exercise,11,2022-05-24,2022-05-26 07:51:37
-240,20161992,Colic,11,2022-05-26,2022-05-26 07:59:57
-241,20170413,Sudden death during exercise,11,2022-05-14,2022-05-27 05:00:03
-242,20190737,Euthanized (left forelimb carpal fracture),11,2022-05-14,2022-05-27 05:05:02
-243,20150295,likely Endotoxemia associated with tying up the morning prior,11,2022-05-28,2022-05-28 07:10:15
-244,20171369,Euthanized due to poor breeding conformation,11,2022-06-02,2022-06-07 11:35:25
-245,20161250,Euthanized due to chronic right forelimb lameness,11,2022-06-09,2022-06-10 07:26:45
-246,20152057,Colic suspected. toxemic at time of examination,11,2022-06-09,2022-06-10 07:27:18
-247,20192382,Found dead in stall,11,2022-05-28,2022-06-13 06:45:36
-248,20180971,left forelimb fetlock disarticulation,11,2022-05-23,2022-06-15 07:44:29
-249,20171036,collapsed and died in testing barn,11,2022-06-18,2022-06-18 13:12:08
-250,20190671,Euthanized due to left forelimb carpal fracture,11,2022-06-21,2022-06-21 04:29:43
-251,20171001,Euthanized due to injury sustained during racing on the 12/03/2022,11,2022-06-28,2022-06-30 04:32:30
-252,20192837,Found dead in stall,11,2022-06-28,2022-06-30 04:32:54
-253,20162873,found dead,11,2022-07-03,2022-07-07 06:30:38
-254,20180991,fastened in stall the night prior and died due to trauma,11,2022-07-06,2022-07-07 06:31:34
-255,20181903,Euthanized due to injury suffered during racing on the 02/07/2022,11,2022-07-08,2022-07-09 12:59:25
-256,20191481,Euthanized. left forelimb mid cannon fracture,11,2022-07-09,2022-07-09 12:59:57
-257,20180411,"Euthanized due to injuries suffered while racing on july 2, 2022. 
+20123494,Euthanized. Proximal cannon fracture,11,2021-03-20,2021-03-20 10:13:49
+20171854,"euthanized due to laminitis in the keft hindlimb and subsequent ""stepping out"" of hoof",11,2021-03-23,2021-03-23 07:42:07
+20142195,euthanized,11,2021-03-26,2021-03-29 06:06:54
+20160935,euthanized due to open fracture at the level of the fetlock joint on the right forelimb,11,2021-03-30,2021-03-31 07:06:42
+20180380,died shortly after returning to stable after being trailered off the track. Suspected rupture of the femoral artery and subsequently went into cardiovascular shock,11,2021-03-30,2021-03-31 07:08:24
+20123838,euthanized fx right forelimb prox. Cannon,11,2021-04-07,2021-04-07 08:41:15
+20102375,Euthanized due to chronic right forelimb lameness,11,2021-04-12,2021-04-12 08:01:47
+20161609,sudden death after racing,11,2021-04-24,2021-04-24 05:45:30
+20160713,euthanized due to laminitis in hindlimbs,11,2021-05-03,2021-05-03 08:12:01
+20161614,euthanized right forelimb scapula fx,11,2021-05-05,2021-05-05 06:43:35
+20120660,found dead in stall,11,2021-05-08,2021-05-11 08:09:26
+99990273,antibiotic associated diarrhea into a colitis and possible endotoxemia,11,2021-05-12,2021-05-12 07:27:43
+20172013,colic,11,2021-05-22,2021-05-29 07:02:53
+20171521,Sudden death while doing pace work. Died at the ~6 furlong marker,11,2021-06-01,2021-06-01 07:13:59
+20170019,died in stall,11,2021-06-01,2021-06-05 07:05:19
+20170786,left hindlimb femoral artery laceration leading to exsanguination,11,2021-06-17,2021-06-21 12:02:49
+20180648,colitis,27,2021-07-01,2021-07-02 05:41:07
+20143536,Hit by car,27,2021-07-01,2021-07-02 05:42:22
+20132253,Colic,11,2021-06-30,2021-07-03 10:58:43
+20182400,p1-p2 disarticulation right forelimb,11,2021-07-05,2021-07-05 12:28:42
+20141572,euthanized,11,2021-06-22,2021-07-10 07:59:24
+20171970,euthanized due to fx of the left forelimb sesamoid,11,2021-07-13,2021-07-16 06:17:24
+99990425,Colic,11,2021-06-25,2021-07-20 07:14:45
+20152264,Sick,11,2021-07-20,2021-07-21 08:02:16
+20161750,"tied up the previous morning, treatment history unknown",11,2021-07-24,2021-07-24 10:27:05
+20180906,euthanized due to carpal fracture which occurred while racing on the 07/02/2021,11,2021-07-30,2021-07-30 09:02:33
+20160900,Hit head and died in stall,11,2021-08-09,2021-08-09 13:30:06
+20131781,Colic,11,2021-08-09,2021-08-09 13:30:43
+20151267,colic'd the night of the 15/08/2021 and died on the 16th,11,2021-08-16,2021-08-17 07:33:34
+20081893,Open distal cannon fracture on the right forelimb,11,2021-08-21,2021-08-21 13:30:23
+20140777,colic,11,2021-09-01,2021-09-03 06:14:59
+20172417,sudden death during exercise,11,2021-09-05,2021-09-10 07:49:11
+20172255,colic,11,2021-09-05,2021-09-10 07:54:21
+20130951,euthanized septic right forelimb carpus,11,2021-09-11,2021-09-11 11:46:10
+20152880,head trauma in stall,11,2021-09-13,2021-09-15 07:49:53
+20161194,colic'd on the 19/09/2021,11,2021-09-20,2021-09-20 07:57:35
+20143849,euthanized due to laminitis and rotation of P3 in the left hindlimb,11,2021-09-19,2021-09-20 08:07:59
+20142877,Open mid cannon fracture of the right forelimb,11,2021-10-02,2021-10-02 10:17:48
+20131276,colic,11,2021-10-03,2021-10-04 07:25:38
+20182975,Euthanized due to inability to stand or see,11,2021-10-05,2021-10-05 05:25:05
+20171430,colic,11,2021-10-08,2021-10-08 05:56:14
+20151090,euthanized RF (fetlock),11,2021-10-09,2021-10-09 13:14:46
+20172275,left forelimb (open fetlock disarticulation),11,2021-10-09,2021-10-09 13:15:44
+20162353,Left forelimb closed distal radius fracture),11,2021-10-09,2021-10-09 13:16:27
+20162651,colic,11,2021-10-12,2021-10-14 08:17:53
+99990324,Colic. Suspected rupture with peritonitis,11,2021-10-15,2021-10-15 05:51:21
+20181327,Euthanized due to right hindlimb distal cannon fracture,11,2021-10-18,2021-10-19 02:05:44
+20121081,sudden death during exercise,11,2021-10-19,2021-10-19 07:57:49
+20142211,euthanized fx right forelimb mid cannon,11,2021-10-23,2021-10-23 09:21:03
+20161023,euthanized laminitis in both forelimbs,11,2021-10-28,2021-10-28 08:13:58
+20141981,euthanized,11,2021-10-28,2021-10-28 08:15:52
+20182248,"died in stable, respiratory tract infection",11,2021-10-27,2021-10-28 08:16:29
+20170857,found dead in stall,11,2021-11-06,2021-11-07 07:04:50
+20190217,Open p2 fracture. Euthanized,11,2021-10-28,2021-11-09 06:37:16
+99990466,sudden death during exercise,11,2021-11-13,2021-11-13 11:36:59
+20151414,euthanized due to open right forelimb disarticulation of the fetlock joint,11,2021-11-15,2021-11-15 12:00:57
+20182137,died from colic which started on the 15/11/2021,11,2021-11-17,2021-11-18 06:46:14
+20171758,Sudden Death during exercise. Blood observed from both nostrils. likely died due to EIPH,11,2021-11-19,2021-11-19 07:03:39
+20150235,euthanized due to open fracture at the fetlock (sesamoid),11,2021-11-20,2021-11-20 11:33:17
+99990149,Euthanized. Septic,11,2021-11-21,2021-11-21 12:22:50
+20161654,Euthanized due to poor response to treatment for colic,11,2021-12-04,2021-12-06 07:09:43
+20171303,Found dead in stall,11,2021-07-05,2021-12-08 08:36:11
+20160339,SICK,11,2021-07-09,2021-12-08 08:40:41
+20133972,colic,11,2021-12-05,2021-12-11 06:42:11
+20183134,Colic,11,2021-12-11,2021-12-11 12:37:24
+20130931,sudden death during race,11,2021-12-12,2021-12-12 11:34:02
+20170226,Open disarticulation of the right forelimb fetlock,11,2021-12-18,2021-12-18 12:04:06
+20180946,colic,11,2021-12-13,2021-12-23 11:38:02
+20143056,Euthanized right forelimb sesamoid fracture,11,2021-12-23,2021-12-23 11:43:24
+20161230,Bilateral forelimb fetlock disarticulation,11,2021-12-27,2021-12-27 12:37:12
+20161952,cause of death unknown due to lack of diagnostics. Bleeding continued from both nostrils,11,2021-12-27,2021-12-27 12:38:18
+20152239,Euthanized,11,2021-12-18,2021-12-29 06:03:58
+20170206,"found dead in stall, epistaxis observed",11,2021-12-17,2021-12-29 06:20:59
+20151303,cause of death unknown. horse died on farm,11,2021-11-29,2021-12-29 06:43:38
+20161316,right forelimb carpal fracture and destabilization of joint,11,2022-01-01,2022-01-01 11:56:26
+20172199,right forelimb carpal fracture,11,2022-01-13,2022-01-13 06:39:23
+20171450,"sudden death during race, EIPH with possible cardiovascular collapse",11,2022-01-16,2022-01-16 12:18:33
+20152113,Euthanized due to 3rd carpal bone fracture of the left forelimb,11,2022-01-21,2022-01-21 07:22:28
+20181170,Colic,11,2022-01-24,2022-01-27 06:56:05
+20172659,Euthanized fx right forlimb prox cannon. Left forelimb swollen...hx Shockwave therapy,11,2022-01-29,2022-01-29 07:01:25
+20171869,Femoral artery rupture,11,2021-09-24,2022-02-11 06:08:05
+20160768,"left forelimb fracture (fetlock, pos sesamoid fx)",11,2022-02-12,2022-02-12 12:10:45
+20181296,left forelimb mid cannon fracture,11,2022-02-19,2022-02-19 12:58:43
+20111018,Euthanized due to suspected right hindlimb hock fracture...no diagnostics done. limited range of motion of hock,11,2022-02-23,2022-02-23 06:13:01
+20141274,Died in stable. Emaciated,11,2022-02-22,2022-02-23 06:17:10
+20150553,sick. Elevated temperature. Found dead in stall in the evening,11,2022-02-17,2022-02-26 10:54:11
+99990375,sudden death during exercise,11,2022-02-26,2022-02-26 10:59:01
+20151156,Euthanized left forelimb fetlock fracture,11,2022-01-29,2022-03-02 06:34:52
+20152562,Sick,11,2021-12-30,2022-03-02 06:37:42
+20161972,found dead in stall (likely sepsis),11,2022-02-24,2022-03-02 06:56:04
+20172962,Colic,11,2022-01-09,2022-03-03 05:13:42
+20161341,euthanized fx distal cannon on the right forelimb,11,2022-03-05,2022-03-05 12:22:48
+20170948,Found dead in stable yard,11,2022-02-16,2022-03-10 06:38:52
+20121758,right forelimb proximal cannon fracture (open),11,2022-03-12,2022-03-12 11:46:45
+99990492,Sudden death during exercise,11,2022-03-15,2022-03-15 06:28:10
+20172755,Found dead in stall. likely colic,11,2022-03-14,2022-03-16 08:13:17
+20120155,Euthanized left forelimb fetlock fracture,11,2022-03-27,2022-04-03 12:52:57
+20150679,suspected electrocution,11,2022-04-09,2022-04-09 13:51:58
+20160273,drowned at sea,11,2022-04-09,2022-04-09 13:52:30
+20171283,found dead in stall. Likely self trauma,11,2022-04-18,2022-04-18 12:54:10
+20181049,Euthanized due to right hindlimb (tibia) fracture after flipping in gate,11,2022-04-30,2022-04-30 13:37:50
+20172482,Found dead in stall,11,2022-05-01,2022-05-03 06:25:31
+20151838,"Unable to stand, later found dead in stall",11,2022-05-01,2022-05-03 06:26:22
+99990049,"Found dead in stall, likely due to trauma",11,2022-05-02,2022-05-03 06:27:17
+20190151,euthanized right forelimb mid/prox cannon fracture,11,2022-05-08,2022-05-08 14:05:38
+20161598,Euthanized due to right forelimb fetlock fracture,11,2022-05-09,2022-05-10 05:52:51
+20142928,"Found dead in stall, neck swollen...suspected insect bite",11,2022-05-11,2022-05-11 07:11:09
+20181236,Found dead in stall,11,2022-05-15,2022-05-17 05:41:47
+20142433,Found dead in stall. History of hoof abscess on both hindlimb which progressed to laminitis,11,2022-05-20,2022-05-20 06:59:27
+20151510,Euthanized due to injury on the right forelimb fetlock,11,2022-05-22,2022-05-22 13:19:41
+20191976,Sudden death during exercise,11,2022-05-24,2022-05-26 07:51:37
+20161992,Colic,11,2022-05-26,2022-05-26 07:59:57
+20170413,Sudden death during exercise,11,2022-05-14,2022-05-27 05:00:03
+20190737,Euthanized (left forelimb carpal fracture),11,2022-05-14,2022-05-27 05:05:02
+20150295,likely Endotoxemia associated with tying up the morning prior,11,2022-05-28,2022-05-28 07:10:15
+20171369,Euthanized due to poor breeding conformation,11,2022-06-02,2022-06-07 11:35:25
+20161250,Euthanized due to chronic right forelimb lameness,11,2022-06-09,2022-06-10 07:26:45
+20152057,Colic suspected. toxemic at time of examination,11,2022-06-09,2022-06-10 07:27:18
+20192382,Found dead in stall,11,2022-05-28,2022-06-13 06:45:36
+20180971,left forelimb fetlock disarticulation,11,2022-05-23,2022-06-15 07:44:29
+20171036,collapsed and died in testing barn,11,2022-06-18,2022-06-18 13:12:08
+20190671,Euthanized due to left forelimb carpal fracture,11,2022-06-21,2022-06-21 04:29:43
+20171001,Euthanized due to injury sustained during racing on the 12/03/2022,11,2022-06-28,2022-06-30 04:32:30
+20192837,Found dead in stall,11,2022-06-28,2022-06-30 04:32:54
+20162873,found dead,11,2022-07-03,2022-07-07 06:30:38
+20180991,fastened in stall the night prior and died due to trauma,11,2022-07-06,2022-07-07 06:31:34
+20181903,Euthanized due to injury suffered during racing on the 02/07/2022,11,2022-07-08,2022-07-09 12:59:25
+20191481,Euthanized. left forelimb mid cannon fracture,11,2022-07-09,2022-07-09 12:59:57
+20180411,"Euthanized due to injuries suffered while racing on july 2, 2022. 
 Did not complete race and returned lame on the left forelimb. Examination on the 02/07/2022 showed lateral deviation of both carpus more severe on the left forelimb.",11,2022-07-14,2022-07-15 06:22:41
-258,20131034,Euthanized due to chronic right forelimb lameness,11,2022-07-10,2022-07-19 05:53:02
-259,20182728,Euthanized due to left hindlimb pastern fracture,11,2022-07-21,2022-07-23 12:49:07
-260,20150568,Euthanized due to chronic left forelimb lameness and poor conformation of the left fetlock,11,2022-07-26,2022-07-27 06:52:55
-261,20131094,Colic,11,2022-07-26,2022-07-27 06:54:06
-262,20163178,Colic,11,2022-07-30,2022-07-30 13:10:21
-263,20170362,Euthanized due to left forelimb carpal fracture and severe muscle necrosis and infection in both hindlimb,11,2022-07-30,2022-07-30 13:12:22
-264,20182344,Euthanized due to loss of blood supply and sensation to the lower limb (below fetlock) post injury during racing on the 23/07/2022,11,2022-07-28,2022-08-04 07:14:29
-265,20122306,Euthanized due to lameness in both hind limbs and loss of body condition,11,2022-07-24,2022-08-04 07:17:45
-266,20142291,"elevated temperature, off feed. found dead",11,2022-08-12,2022-08-15 06:25:55
-267,20181650,"Euthanized due to right forelimb lameness (carpus) visible instability of the knee, no radiographs taken",11,2022-08-15,2022-08-16 07:08:11
-268,20160213,found dead in stall,11,2022-08-12,2022-08-19 07:27:18
-269,20150851,Euthanized,11,2022-08-02,2022-08-19 07:47:20
-270,20160117,Euthanized due to left forelimb fetlock fracture,11,2022-08-20,2022-08-20 14:02:07
-271,20170357,"Euthanized, fracture both forelimbs",11,2022-08-21,2022-08-21 13:18:35
-273,20171910,Euthanized due to infected right forelimb fetlock joint,11,2022-07-22,2022-08-23 07:43:01
-274,20171192,Trauma following castration,11,2022-07-17,2022-08-25 07:25:49
-275,20160697,Euthanized due to right forelimb distal cannon fracture,11,2022-08-27,2022-08-27 13:28:33
-276,20180628,Euthanized due to right forelimb scapula fracture,11,2022-08-27,2022-08-27 13:30:15
-277,20190742,Euthanized due to distal cannon fracture of the left forelimb,11,2022-08-27,2022-08-28 13:34:38
-278,20180355,Colic,11,2022-09-02,2022-09-05 06:06:12
-279,20140297,Colic,11,2022-09-04,2022-09-07 07:42:51
-280,20182773,Euthanized due to chronic left hindlimb lameness and associated muscle atrophy,11,2022-09-07,2022-09-08 07:45:24
-281,20172700,Euthanized due to open sesamoid fracture of the left forelimb,11,2022-09-11,2022-09-11 13:43:16
-282,20162742,Euthanized due to left forelimb carpal fracture,11,2022-09-13,2022-09-13 05:48:08
-283,20181983,colic,11,2022-09-17,2022-09-19 06:39:59
-284,20120175,colic,11,2022-09-15,2022-09-19 06:45:15
-285,20161694,sick,11,2022-09-18,2022-09-21 05:30:16
-286,20190560,Sudden death during exercise,11,2022-09-20,2022-09-21 05:32:21
-287,20180239,Euthanized due to right forelimb injury sustained while racing,11,2022-09-21,2022-09-23 06:44:41
-288,20151949,Euthanized due to laminitis and rotation of the left forelimb pedal bone,11,2022-09-23,2022-09-24 10:26:29
-289,20203033,Euthanized due to right forelimb scapula* fracture,11,2022-10-01,2022-10-01 11:02:30
-290,20181670,colic,11,2022-10-01,2022-10-01 11:39:49
-291,20172593,sudden death during exercise,11,2022-09-29,2022-10-07 08:09:57
-292,20161932,Euthanized due to injuries sustained while racing on the 24/09/2022,11,2022-10-06,2022-10-07 08:10:55
-293,20143374,Laminitis in all 4 legs (stepped out of hoof of 3/4 limbs),11,2022-10-20,2022-10-20 06:29:09
-294,20150957,Euthanized due to septic joint (left forelimb fetlock),11,2022-10-17,2022-10-20 06:31:07
-295,20161447,Euthanized due to laminitis and separation of hoof in the left hindlimb,11,2022-10-16,2022-10-20 06:34:06
-296,20141012,Colic,11,2022-09-07,2022-10-20 06:45:21
-297,20152411,tick fever,11,2022-10-13,2022-10-20 06:51:41
-298,20192539,Sudden death during racing,11,2022-10-22,2022-10-22 12:11:30
-299,20181923,"found dead in stall, likely cardiovascular episode",11,2022-10-23,2022-11-08 05:38:11
-300,20162717,found dead in stall,11,2022-10-15,2022-11-08 05:40:52
-301,20142711,sick,11,2022-10-24,2022-11-08 05:41:37
-302,20152597,colic,11,2022-10-25,2022-11-08 05:42:09
-303,20133250,found dead in stall,11,2022-11-07,2022-11-08 05:42:45
-304,99990414,Sudden death during exercise,11,2022-11-17,2022-11-18 05:04:08
-305,20171632,Euthanized due to left forelimb cannon fracture,11,2022-11-06,2022-11-24 06:08:09
-306,20182420,"died on the bridle path heading home, bleeding from ear, possible head trauma",11,2022-12-03,2022-12-03 12:55:18
-307,20182253,suspected heart attack,11,2022-12-12,2022-12-14 06:20:53
-308,20191052,Euthanized due to right forelimb sesamoid fracture,11,2022-12-18,2022-12-19 08:36:56
-309,20162111,Euthanized due to chronic right forelimb lameness,11,2022-12-21,2022-12-26 11:11:56
-310,20191805,found dead in stall,11,2023-01-01,2023-01-03 04:13:58
-311,20192099,Euthanized due to injury sustained during racing on the 11/12/2022,11,2022-12-27,2023-01-03 05:17:07
-312,20182804,Euthanized due to being recumbent for over 24hr,11,2023-01-02,2023-01-04 05:30:16
-313,20191709,Euthanized due to bilateral forelimb fracture (fetlock),11,2023-01-14,2023-01-14 07:50:46
-314,20201084,"""tie up"" the 25/01/2023",11,2023-01-26,2023-01-28 11:20:58
-315,20181256,Euthanized due to left forelimb proximal cannon fracture,11,2023-01-28,2023-01-28 11:25:02
-316,20170973,Colic,11,2023-02-04,2023-02-07 05:29:14
-317,20132011,colic,11,2023-02-10,2023-02-11 12:50:03
-318,20152673,Euthanized due to breaking down on the right forelimb (sesamoid fracture),11,2023-02-11,2023-02-13 05:17:24
-319,99990521,Euthanized due to right forelimb suspected shoulder fracture suffered during exercise on the 16/02/2023,11,2023-02-17,2023-02-17 05:05:34
-320,20190893,found dead in stall,11,2023-02-19,2023-02-20 05:08:07
-321,20120640,left forelimb fetlock fracture,11,2023-02-26,2023-02-26 12:07:58
-322,20192155,Euthanized due to chronic right forelimb lameness,11,2023-03-01,2023-03-02 05:15:52
-323,20193036,Euthanized due to left forelimb fetlock fracture,11,2023-03-04,2023-03-05 11:29:49
-324,20160288,Euthanized due to right forelimb proximal cannon fracture,11,2023-03-05,2023-03-05 11:30:58
-325,20143576,found dead in stall,11,2023-03-03,2023-03-05 11:40:26
-326,20170211,"Euthanized due to endotoxemia following bout of ""tying up""",11,2023-03-10,2023-03-10 06:42:18
-327,99990579,Sudden death during exercise,11,2023-03-10,2023-03-10 06:42:43
-328,20162919,Sudden death in stall,11,2023-02-10,2023-03-16 06:37:49
-329,20191663,Head trauma,11,2023-03-18,2023-03-19 13:47:24
-330,20182677,Colic,11,2023-03-22,2023-03-23 07:32:49
-331,20191532,Exsanguination,11,2023-03-30,2023-04-01 12:52:28
-332,20190959,Sudden death during exercise,11,2023-04-01,2023-04-01 12:59:17
-333,20171627,Sudden death during exercise,11,2023-04-13,2023-04-13 05:45:05
-334,20100553,Euthanized,11,2023-03-28,2023-04-20 07:04:44
-335,99990743,Sudden death during exercise,11,2023-04-16,2023-04-20 07:16:09
-336,20191123,Euthanized due to distal cannon fracture of the right forelimb,11,2023-04-23,2023-04-23 13:10:46
-337,20180077,Colic,11,2023-05-04,2023-05-04 07:08:27
-338,20142837,Euthanized due to chronic bilateral forelimb lameness,11,2023-05-02,2023-05-04 07:09:25
-339,20170615,Euthanized due to laminitis in both hindlimbs,11,2023-05-05,2023-05-05 07:24:32
-340,20142317,Sudden death following swimming in pool,11,2023-05-05,2023-05-05 07:25:47
-341,20120059,Euthanized due to left hindlimb fracture of the pastern,11,2023-05-09,2023-05-10 05:56:31
-342,20190075,"Sick, off feed and diarrhea for approximately 3 days",11,2023-05-09,2023-05-10 05:59:29
-343,20130704,Sick,11,2023-05-15,2023-05-17 05:38:48
-344,20162015,Sick,11,2023-05-16,2023-05-17 06:00:45
-345,20160915,Euthanized due to right forelimb fetlock fracture,11,2023-05-20,2023-05-23 13:07:39
-346,20191916,Euthanized due to right forelimb carpal fracture  in racing on the 27.05.2023,11,2023-05-30,2023-05-30 06:24:47
-347,99990852,Sudden death during exercise,11,2023-06-01,2023-06-01 07:45:49
-348,20142973,Sick. off feed with temperature and dehydrated,11,2023-05-27,2023-06-01 07:49:39
-349,20113032,head trauma,11,2023-06-03,2023-06-03 13:18:39
-350,20190171,Euthanized due to left forelimb sesamoid fracture suffered on the 27.05.2023,11,2023-06-03,2023-06-03 13:20:01
-351,20202536,Colic,11,2023-06-16,2023-06-16 06:08:58
-352,20180633,Anesthetic death following sesamoid fracture surgery,11,2023-06-16,2023-06-17 12:50:29
-353,20182662,Euthanized due to left forelimb distal cannon fracture,11,2023-06-25,2023-06-25 12:58:22
-354,20200274,Colic,11,2023-07-13,2023-07-13 03:10:48
-355,20200274,Colic,11,2023-07-13,2023-07-13 03:10:48
-356,20190373,Euthanized due to suspected left forelimb sesamoid fracture,11,2023-07-04,2023-07-13 03:21:52
-357,20172528,sick,11,2023-07-11,2023-07-13 03:25:37
-358,20201599,sick (high fever),11,2023-07-06,2023-07-13 03:36:24
-359,20191890,Euthanized due to chronic left forelimb lameness,11,2023-07-26,2023-07-29 11:16:11
-360,20142675,found dead in stall,11,2023-07-15,2023-07-29 11:16:58
-361,20201206,sepsis following injury to head/mandible,11,2023-07-31,2023-07-31 06:08:22
-362,20200416,sudden death during exercise,11,2023-03-10,2023-08-03 06:08:38
-363,20152108,sudden death in stall,11,2023-08-07,2023-08-07 12:55:31
-364,20201822,Euthanized due to left forelimb proximal cannon fracture,11,2023-08-07,2023-08-07 12:56:20
-365,20151378,euthanized due to left forelimb fetlock fracture,11,2023-08-12,2023-08-12 13:34:37
-366,20192397,"""walked out"" of hoof due to laminitis",11,2023-08-21,2023-08-22 07:30:42
-367,20170317,Collapsed on bridal path,11,2023-08-29,2023-09-05 06:23:33
-368,20192746,"Fell in stall and unable to stand, euthanized",11,2023-09-06,2023-09-06 05:18:14
-370,20193096,Tied up after races and died in stable,11,2023-09-10,2023-09-14 05:47:01
-371,20161336,Euthanized due to left forelimb proximal cannon fracture,11,2023-09-16,2023-09-16 12:42:48
-372,20170079,Euthanized due to chronic left forelimb lameness (fetlock),11,2023-09-15,2023-09-16 12:43:27
-373,20180653,Euthanized due to left forelimb mid cannon fracture,11,2023-09-24,2023-09-24 12:47:36
-374,20180653,Euthanized due to left forelimb mid cannon fracture,11,2023-09-24,2023-09-24 12:47:36
-375,20202970,found dead in stall,11,2023-10-02,2023-10-05 09:08:38
-376,20192675,found dead in stall,11,2023-10-13,2023-10-14 13:47:04
-377,20163072,Sudden death post exercise,11,2023-10-19,2023-10-19 06:05:23
-378,20191229,found dead in stall,11,2023-09-05,2023-10-19 06:06:30
-379,20181690,found dead in stall,11,2023-09-01,2023-10-19 06:08:59
-380,20181690,found dead in stall,11,2023-09-01,2023-10-19 06:08:59
-381,20181034,found dead in stall,11,2023-09-01,2023-10-19 06:10:11
-382,20202607,went off feed and was found dead in stall,11,2023-09-03,2023-10-19 06:11:21
-383,20191547,tied up on the 6/10/2023 and died the following morning,11,2023-10-07,2023-10-19 06:38:29
-384,20191547,tied up on the 6/10/2023 and died the following morning,11,2023-10-07,2023-10-19 06:38:29
-385,20200310,collapsed and died post race,11,2023-10-07,2023-10-19 06:42:04
-386,99990589,found dead in stall,11,2023-09-06,2023-10-19 06:49:14
-387,99990763,Euthanized,11,2023-09-11,2023-10-19 06:52:55
-388,99990702,Euthanized due to hindlimb weakness and incoordination,11,2023-10-18,2023-10-19 06:54:57
-389,99990702,Euthanized due to hindlimb weakness and incoordination,11,2023-10-18,2023-10-19 06:54:57
-390,99990574,Euthanized,11,2023-01-27,2023-10-19 06:56:22
-391,99990806,found dead in stall,11,2023-04-05,2023-10-19 06:57:20
-392,99990790,sudden death during exercise,11,2023-04-16,2023-10-19 06:58:12
-393,99990790,sudden death during exercise,11,2023-04-16,2023-10-19 06:58:12
-394,99990694,unknown,11,2023-01-31,2023-10-19 07:00:00
-395,99990694,unknown,11,2023-01-31,2023-10-19 07:00:00
-396,99990777,euthanized due to injury sustained in training,11,2023-05-11,2023-10-19 07:01:21
-397,99990777,euthanized due to injury sustained in training,11,2023-05-11,2023-10-19 07:01:21
-398,99990516,Elevated temperature and unable to stand,11,2023-10-12,2023-10-21 09:18:40
-399,99990517,found dead in stall,11,2023-10-06,2023-10-21 09:19:19
-400,99990657,Euthanized due left hind limb fracture,11,2023-09-20,2023-10-21 09:22:34
-401,99990657,Euthanized due left hind limb fracture,11,2023-09-20,2023-10-21 09:22:34
-402,20191870,Colic,11,2023-10-24,2023-10-24 07:50:03
-403,20191870,Colic,11,2023-10-24,2023-10-24 07:50:03
-404,20181872,Euthanized due to left forelimb sesamoid fracture,11,2023-10-28,2023-10-28 13:05:37
-405,20182819,Colic,11,2023-11-06,2023-11-07 07:43:56
-406,20201039,Sudden death during exercise,11,2023-11-08,2023-11-08 05:52:37
-407,20200138,Euthanized due to chronic right forelimb lameness (pastern),11,2023-11-10,2023-11-10 05:46:35
-408,20180057,Euthanized due to right forelimb fetlock fracture,11,2023-11-11,2023-11-11 12:12:37
-409,20191734,Euthanized due to right forelimb mid cannon fracture,11,2023-11-18,2023-11-18 12:35:25
-410,20160879,Euthanized due to left forelimb mid cannon fracture,11,2023-11-19,2023-11-19 11:22:59
-411,20190035,euthanized due to left forelimb fetlock fracture,11,2023-12-10,2023-12-10 12:29:25
-412,20160415,Euthanized due to laminitis in the left forelimb,11,2023-12-14,2023-12-15 07:37:20
-413,20152279,Sudden death during exercise,11,2023-12-17,2023-12-19 04:18:23
-414,20152279,Sudden death during exercise,11,2023-12-17,2023-12-19 04:18:23
-415,99990939,Colic,11,2023-12-20,2023-12-20 07:53:02
-416,20202561,Euthanized due to left forelimb distal cannon fracture,11,2023-12-26,2023-12-26 12:02:33
-417,20151858,sudden death during racing,11,2024-01-01,2024-01-01 11:45:53
-418,20182879,Euthanized due to injury sustained during exercise on the 25/12/2023,11,2024-01-03,2024-01-03 07:46:42
-419,20120019,Laminitis,11,2024-01-04,2024-01-04 11:34:10
-421,20200289,Euthanized due to right forelimb elbow fracture which occurred while racing on the 26/12/2023,11,2024-01-05,2024-01-06 11:34:26
-422,99990727,Colic,11,2023-12-23,2024-01-08 05:54:21
-423,20210065,Sick (respiratory infection),11,2023-12-06,2024-01-08 05:57:37
-424,20142655,Sick (respiratory infection),11,2023-12-07,2024-01-08 05:58:25
-425,20182117,sudden death in stable,11,2024-01-09,2024-01-09 10:09:01
-426,20202258,Euthanized due to right forelimb fetlock disarticulation,11,2024-01-13,2024-01-13 12:30:58
-427,20182935,sudden death after racing,11,2024-01-20,2024-01-20 11:44:18
-428,20182935,sudden death after racing,11,2024-01-20,2024-01-20 11:44:18
-429,20181938,euthanized due to left forelimb fetlock fracture,11,2024-02-17,2024-02-24 09:28:31
-430,20211022,"Euthanized, right forelimb distal radius fracture",11,2024-03-24,2024-04-08 03:50:06
-431,20200825,"undetermined, trauma related",11,2024-04-04,2024-04-08 03:51:04
-433,20201004,"euthanized, left forelimb mid cannon fracture",11,2024-03-16,2024-04-08 03:53:26
-434,20152799,"euthanized, left forelimb mid cannon fracture",11,2024-03-16,2024-04-08 03:54:38
-435,20200603,collided with another horse during exercise,11,2024-03-16,2024-04-08 03:56:23
-436,20181372,died due to racing related injuries suffered on the 23/03/2024,11,2024-03-29,2024-04-08 03:58:37
-437,20211608,Euthanized due to being unable to stand following injury while racing on the 14/04/2024,11,2024-04-17,2024-04-17 08:19:51
-438,20191572,"Collapsed and died in stable, history of collapsing in the week prior*",11,2024-04-20,2024-04-20 08:03:37
-439,20160637,Euthanized due to disarticulation of both front fetlock joints,11,2024-05-04,2024-05-04 13:29:44
-440,20180855,Euthanized due to laminitis in both forelimbs,11,2024-05-07,2024-05-07 07:21:01
-441,20210252,Euthanized due to injuries suffered (right forelimb carpal fracture) in racing on the 23/05/2024,11,2024-05-24,2024-05-24 03:32:48
-442,20202632,colic,11,2024-05-24,2024-05-24 03:33:15
-443,20161412,Colic since the 23/05/2024,11,2024-05-25,2024-05-25 13:13:32
-444,20191072,Euthanized due to suspected sesamoid fracture of the right forelimb,11,2024-05-25,2024-05-27 06:34:19
-445,20201488,sudden death during exercise,11,2024-06-01,2024-06-01 13:21:55
-446,20201271,found dead in stall,11,2024-06-14,2024-06-14 05:31:26
-447,20171132,colic,11,2024-06-10,2024-06-14 05:38:02
-448,20202814,"found dead in stall, likely due to sepsis (infected right knee)",11,2024-06-15,2024-06-17 05:43:47
-449,99990936,euthanized due to left forelimb mid cannon fracture,11,2024-06-15,2024-06-17 05:58:27
-450,20202298,Euthanized due to complications following castration,11,2024-02-21,2024-06-17 06:15:14
-451,20172871,colic,11,2024-06-19,2024-06-20 06:11:27
-452,20152173,found dead in stall,11,2024-06-22,2024-07-29 05:40:26
-453,20201706,euthanized due to laminitis (stepped out of hoof) in the right hindlimb,11,2024-07-02,2024-07-29 05:41:41
-454,20190479,colic,11,2024-07-28,2024-07-29 05:42:11
-455,20190762,found dead in stall (hx of torticollis the day before),11,2024-07-20,2024-07-29 05:44:58
-456,20202869,sudden death in exercise (got away and galloped 3 rounds),11,2024-03-26,2024-07-31 07:23:06
-457,99990878,euthanized due to left forelimb pastern fracture,11,2024-08-17,2024-08-21 04:40:45
-458,20192933,Head trauma following episode of colic,11,2024-08-21,2024-08-22 07:59:24
-459,20210823,Sudden death after exercise,11,2024-08-24,2024-08-24 03:43:43
-460,20151136,euthanized due to laminitis in both forelimbs,11,2024-09-24,2024-10-15 03:55:39
-461,20202596,found dead in stall,11,2024-09-17,2024-10-15 03:56:22
-462,20190691,colic,11,2024-09-07,2024-10-15 03:57:06
-463,20190393,colic,11,2024-09-01,2024-10-15 03:57:55
-464,20211840,colic,11,2024-09-01,2024-10-15 03:59:29
-465,20191032,"found dead, being treated for respiratory infection",11,2024-09-12,2024-10-15 04:01:06
-466,20203457,colic,11,2024-09-09,2024-10-15 04:09:23
-467,20211315,euthanized due to being unable to stand after head trauma on the 6/10/2024,11,2024-10-07,2024-10-15 04:10:52
-468,20130673,Colic,11,2024-10-18,2024-10-19 04:04:45
-469,20211926,Euthanized due to pelvic injured suffered while racing,11,2024-10-12,2024-10-19 13:18:08
-470,20210030,Euthanized due to left forelimb fetlock fracture,11,2024-10-19,2024-10-19 13:18:55
-471,20203462,Euthanized due to left forelimb scapular fracture,11,2024-10-27,2024-10-28 05:48:32
-472,20212594,Sudden death during exercise,11,2024-12-02,2024-12-02 04:11:53
+20131034,Euthanized due to chronic right forelimb lameness,11,2022-07-10,2022-07-19 05:53:02
+20182728,Euthanized due to left hindlimb pastern fracture,11,2022-07-21,2022-07-23 12:49:07
+20150568,Euthanized due to chronic left forelimb lameness and poor conformation of the left fetlock,11,2022-07-26,2022-07-27 06:52:55
+20131094,Colic,11,2022-07-26,2022-07-27 06:54:06
+20163178,Colic,11,2022-07-30,2022-07-30 13:10:21
+20170362,Euthanized due to left forelimb carpal fracture and severe muscle necrosis and infection in both hindlimb,11,2022-07-30,2022-07-30 13:12:22
+20182344,Euthanized due to loss of blood supply and sensation to the lower limb (below fetlock) post injury during racing on the 23/07/2022,11,2022-07-28,2022-08-04 07:14:29
+20122306,Euthanized due to lameness in both hind limbs and loss of body condition,11,2022-07-24,2022-08-04 07:17:45
+20142291,"elevated temperature, off feed. found dead",11,2022-08-12,2022-08-15 06:25:55
+20181650,"Euthanized due to right forelimb lameness (carpus) visible instability of the knee, no radiographs taken",11,2022-08-15,2022-08-16 07:08:11
+20160213,found dead in stall,11,2022-08-12,2022-08-19 07:27:18
+20150851,Euthanized,11,2022-08-02,2022-08-19 07:47:20
+20160117,Euthanized due to left forelimb fetlock fracture,11,2022-08-20,2022-08-20 14:02:07
+20170357,"Euthanized, fracture both forelimbs",11,2022-08-21,2022-08-21 13:18:35
+20171910,Euthanized due to infected right forelimb fetlock joint,11,2022-07-22,2022-08-23 07:43:01
+20171192,Trauma following castration,11,2022-07-17,2022-08-25 07:25:49
+20160697,Euthanized due to right forelimb distal cannon fracture,11,2022-08-27,2022-08-27 13:28:33
+20180628,Euthanized due to right forelimb scapula fracture,11,2022-08-27,2022-08-27 13:30:15
+20190742,Euthanized due to distal cannon fracture of the left forelimb,11,2022-08-27,2022-08-28 13:34:38
+20180355,Colic,11,2022-09-02,2022-09-05 06:06:12
+20140297,Colic,11,2022-09-04,2022-09-07 07:42:51
+20182773,Euthanized due to chronic left hindlimb lameness and associated muscle atrophy,11,2022-09-07,2022-09-08 07:45:24
+20172700,Euthanized due to open sesamoid fracture of the left forelimb,11,2022-09-11,2022-09-11 13:43:16
+20162742,Euthanized due to left forelimb carpal fracture,11,2022-09-13,2022-09-13 05:48:08
+20181983,colic,11,2022-09-17,2022-09-19 06:39:59
+20120175,colic,11,2022-09-15,2022-09-19 06:45:15
+20161694,sick,11,2022-09-18,2022-09-21 05:30:16
+20190560,Sudden death during exercise,11,2022-09-20,2022-09-21 05:32:21
+20180239,Euthanized due to right forelimb injury sustained while racing,11,2022-09-21,2022-09-23 06:44:41
+20151949,Euthanized due to laminitis and rotation of the left forelimb pedal bone,11,2022-09-23,2022-09-24 10:26:29
+20203033,Euthanized due to right forelimb scapula* fracture,11,2022-10-01,2022-10-01 11:02:30
+20181670,colic,11,2022-10-01,2022-10-01 11:39:49
+20172593,sudden death during exercise,11,2022-09-29,2022-10-07 08:09:57
+20161932,Euthanized due to injuries sustained while racing on the 24/09/2022,11,2022-10-06,2022-10-07 08:10:55
+20143374,Laminitis in all 4 legs (stepped out of hoof of 3/4 limbs),11,2022-10-20,2022-10-20 06:29:09
+20150957,Euthanized due to septic joint (left forelimb fetlock),11,2022-10-17,2022-10-20 06:31:07
+20161447,Euthanized due to laminitis and separation of hoof in the left hindlimb,11,2022-10-16,2022-10-20 06:34:06
+20141012,Colic,11,2022-09-07,2022-10-20 06:45:21
+20152411,tick fever,11,2022-10-13,2022-10-20 06:51:41
+20192539,Sudden death during racing,11,2022-10-22,2022-10-22 12:11:30
+20181923,"found dead in stall, likely cardiovascular episode",11,2022-10-23,2022-11-08 05:38:11
+20162717,found dead in stall,11,2022-10-15,2022-11-08 05:40:52
+20142711,sick,11,2022-10-24,2022-11-08 05:41:37
+20152597,colic,11,2022-10-25,2022-11-08 05:42:09
+20133250,found dead in stall,11,2022-11-07,2022-11-08 05:42:45
+99990414,Sudden death during exercise,11,2022-11-17,2022-11-18 05:04:08
+20171632,Euthanized due to left forelimb cannon fracture,11,2022-11-06,2022-11-24 06:08:09
+20182420,"died on the bridle path heading home, bleeding from ear, possible head trauma",11,2022-12-03,2022-12-03 12:55:18
+20182253,suspected heart attack,11,2022-12-12,2022-12-14 06:20:53
+20191052,Euthanized due to right forelimb sesamoid fracture,11,2022-12-18,2022-12-19 08:36:56
+20162111,Euthanized due to chronic right forelimb lameness,11,2022-12-21,2022-12-26 11:11:56
+20191805,found dead in stall,11,2023-01-01,2023-01-03 04:13:58
+20192099,Euthanized due to injury sustained during racing on the 11/12/2022,11,2022-12-27,2023-01-03 05:17:07
+20182804,Euthanized due to being recumbent for over 24hr,11,2023-01-02,2023-01-04 05:30:16
+20191709,Euthanized due to bilateral forelimb fracture (fetlock),11,2023-01-14,2023-01-14 07:50:46
+20201084,"""tie up"" the 25/01/2023",11,2023-01-26,2023-01-28 11:20:58
+20181256,Euthanized due to left forelimb proximal cannon fracture,11,2023-01-28,2023-01-28 11:25:02
+20170973,Colic,11,2023-02-04,2023-02-07 05:29:14
+20132011,colic,11,2023-02-10,2023-02-11 12:50:03
+20152673,Euthanized due to breaking down on the right forelimb (sesamoid fracture),11,2023-02-11,2023-02-13 05:17:24
+99990521,Euthanized due to right forelimb suspected shoulder fracture suffered during exercise on the 16/02/2023,11,2023-02-17,2023-02-17 05:05:34
+20190893,found dead in stall,11,2023-02-19,2023-02-20 05:08:07
+20120640,left forelimb fetlock fracture,11,2023-02-26,2023-02-26 12:07:58
+20192155,Euthanized due to chronic right forelimb lameness,11,2023-03-01,2023-03-02 05:15:52
+20193036,Euthanized due to left forelimb fetlock fracture,11,2023-03-04,2023-03-05 11:29:49
+20160288,Euthanized due to right forelimb proximal cannon fracture,11,2023-03-05,2023-03-05 11:30:58
+20143576,found dead in stall,11,2023-03-03,2023-03-05 11:40:26
+20170211,"Euthanized due to endotoxemia following bout of ""tying up""",11,2023-03-10,2023-03-10 06:42:18
+99990579,Sudden death during exercise,11,2023-03-10,2023-03-10 06:42:43
+20162919,Sudden death in stall,11,2023-02-10,2023-03-16 06:37:49
+20191663,Head trauma,11,2023-03-18,2023-03-19 13:47:24
+20182677,Colic,11,2023-03-22,2023-03-23 07:32:49
+20191532,Exsanguination,11,2023-03-30,2023-04-01 12:52:28
+20190959,Sudden death during exercise,11,2023-04-01,2023-04-01 12:59:17
+20171627,Sudden death during exercise,11,2023-04-13,2023-04-13 05:45:05
+20100553,Euthanized,11,2023-03-28,2023-04-20 07:04:44
+99990743,Sudden death during exercise,11,2023-04-16,2023-04-20 07:16:09
+20191123,Euthanized due to distal cannon fracture of the right forelimb,11,2023-04-23,2023-04-23 13:10:46
+20180077,Colic,11,2023-05-04,2023-05-04 07:08:27
+20142837,Euthanized due to chronic bilateral forelimb lameness,11,2023-05-02,2023-05-04 07:09:25
+20170615,Euthanized due to laminitis in both hindlimbs,11,2023-05-05,2023-05-05 07:24:32
+20142317,Sudden death following swimming in pool,11,2023-05-05,2023-05-05 07:25:47
+20120059,Euthanized due to left hindlimb fracture of the pastern,11,2023-05-09,2023-05-10 05:56:31
+20190075,"Sick, off feed and diarrhea for approximately 3 days",11,2023-05-09,2023-05-10 05:59:29
+20130704,Sick,11,2023-05-15,2023-05-17 05:38:48
+20162015,Sick,11,2023-05-16,2023-05-17 06:00:45
+20160915,Euthanized due to right forelimb fetlock fracture,11,2023-05-20,2023-05-23 13:07:39
+20191916,Euthanized due to right forelimb carpal fracture  in racing on the 27.05.2023,11,2023-05-30,2023-05-30 06:24:47
+99990852,Sudden death during exercise,11,2023-06-01,2023-06-01 07:45:49
+20142973,Sick. off feed with temperature and dehydrated,11,2023-05-27,2023-06-01 07:49:39
+20113032,head trauma,11,2023-06-03,2023-06-03 13:18:39
+20190171,Euthanized due to left forelimb sesamoid fracture suffered on the 27.05.2023,11,2023-06-03,2023-06-03 13:20:01
+20202536,Colic,11,2023-06-16,2023-06-16 06:08:58
+20180633,Anesthetic death following sesamoid fracture surgery,11,2023-06-16,2023-06-17 12:50:29
+20182662,Euthanized due to left forelimb distal cannon fracture,11,2023-06-25,2023-06-25 12:58:22
+20200274,Colic,11,2023-07-13,2023-07-13 03:10:48
+20190373,Euthanized due to suspected left forelimb sesamoid fracture,11,2023-07-04,2023-07-13 03:21:52
+20172528,sick,11,2023-07-11,2023-07-13 03:25:37
+20201599,sick (high fever),11,2023-07-06,2023-07-13 03:36:24
+20191890,Euthanized due to chronic left forelimb lameness,11,2023-07-26,2023-07-29 11:16:11
+20142675,found dead in stall,11,2023-07-15,2023-07-29 11:16:58
+20201206,sepsis following injury to head/mandible,11,2023-07-31,2023-07-31 06:08:22
+20200416,sudden death during exercise,11,2023-03-10,2023-08-03 06:08:38
+20152108,sudden death in stall,11,2023-08-07,2023-08-07 12:55:31
+20201822,Euthanized due to left forelimb proximal cannon fracture,11,2023-08-07,2023-08-07 12:56:20
+20151378,euthanized due to left forelimb fetlock fracture,11,2023-08-12,2023-08-12 13:34:37
+20192397,"""walked out"" of hoof due to laminitis",11,2023-08-21,2023-08-22 07:30:42
+20170317,Collapsed on bridal path,11,2023-08-29,2023-09-05 06:23:33
+20192746,"Fell in stall and unable to stand, euthanized",11,2023-09-06,2023-09-06 05:18:14
+20193096,Tied up after races and died in stable,11,2023-09-10,2023-09-14 05:47:01
+20161336,Euthanized due to left forelimb proximal cannon fracture,11,2023-09-16,2023-09-16 12:42:48
+20170079,Euthanized due to chronic left forelimb lameness (fetlock),11,2023-09-15,2023-09-16 12:43:27
+20180653,Euthanized due to left forelimb mid cannon fracture,11,2023-09-24,2023-09-24 12:47:36
+20202970,found dead in stall,11,2023-10-02,2023-10-05 09:08:38
+20192675,found dead in stall,11,2023-10-13,2023-10-14 13:47:04
+20163072,Sudden death post exercise,11,2023-10-19,2023-10-19 06:05:23
+20191229,found dead in stall,11,2023-09-05,2023-10-19 06:06:30
+20181690,found dead in stall,11,2023-09-01,2023-10-19 06:08:59
+20181034,found dead in stall,11,2023-09-01,2023-10-19 06:10:11
+20202607,went off feed and was found dead in stall,11,2023-09-03,2023-10-19 06:11:21
+20191547,tied up on the 6/10/2023 and died the following morning,11,2023-10-07,2023-10-19 06:38:29
+20200310,collapsed and died post race,11,2023-10-07,2023-10-19 06:42:04
+99990589,found dead in stall,11,2023-09-06,2023-10-19 06:49:14
+99990763,Euthanized,11,2023-09-11,2023-10-19 06:52:55
+99990702,Euthanized due to hindlimb weakness and incoordination,11,2023-10-18,2023-10-19 06:54:57
+99990574,Euthanized,11,2023-01-27,2023-10-19 06:56:22
+99990806,found dead in stall,11,2023-04-05,2023-10-19 06:57:20
+99990790,sudden death during exercise,11,2023-04-16,2023-10-19 06:58:12
+99990694,unknown,11,2023-01-31,2023-10-19 07:00:00
+99990777,euthanized due to injury sustained in training,11,2023-05-11,2023-10-19 07:01:21
+99990516,Elevated temperature and unable to stand,11,2023-10-12,2023-10-21 09:18:40
+99990517,found dead in stall,11,2023-10-06,2023-10-21 09:19:19
+99990657,Euthanized due left hind limb fracture,11,2023-09-20,2023-10-21 09:22:34
+20191870,Colic,11,2023-10-24,2023-10-24 07:50:03
+20181872,Euthanized due to left forelimb sesamoid fracture,11,2023-10-28,2023-10-28 13:05:37
+20182819,Colic,11,2023-11-06,2023-11-07 07:43:56
+20201039,Sudden death during exercise,11,2023-11-08,2023-11-08 05:52:37
+20200138,Euthanized due to chronic right forelimb lameness (pastern),11,2023-11-10,2023-11-10 05:46:35
+20180057,Euthanized due to right forelimb fetlock fracture,11,2023-11-11,2023-11-11 12:12:37
+20191734,Euthanized due to right forelimb mid cannon fracture,11,2023-11-18,2023-11-18 12:35:25
+20160879,Euthanized due to left forelimb mid cannon fracture,11,2023-11-19,2023-11-19 11:22:59
+20190035,euthanized due to left forelimb fetlock fracture,11,2023-12-10,2023-12-10 12:29:25
+20160415,Euthanized due to laminitis in the left forelimb,11,2023-12-14,2023-12-15 07:37:20
+20152279,Sudden death during exercise,11,2023-12-17,2023-12-19 04:18:23
+99990939,Colic,11,2023-12-20,2023-12-20 07:53:02
+20202561,Euthanized due to left forelimb distal cannon fracture,11,2023-12-26,2023-12-26 12:02:33
+20151858,sudden death during racing,11,2024-01-01,2024-01-01 11:45:53
+20182879,Euthanized due to injury sustained during exercise on the 25/12/2023,11,2024-01-03,2024-01-03 07:46:42
+20120019,Laminitis,11,2024-01-04,2024-01-04 11:34:10
+20200289,Euthanized due to right forelimb elbow fracture which occurred while racing on the 26/12/2023,11,2024-01-05,2024-01-06 11:34:26
+99990727,Colic,11,2023-12-23,2024-01-08 05:54:21
+20210065,Sick (respiratory infection),11,2023-12-06,2024-01-08 05:57:37
+20142655,Sick (respiratory infection),11,2023-12-07,2024-01-08 05:58:25
+20182117,sudden death in stable,11,2024-01-09,2024-01-09 10:09:01
+20202258,Euthanized due to right forelimb fetlock disarticulation,11,2024-01-13,2024-01-13 12:30:58
+20182935,sudden death after racing,11,2024-01-20,2024-01-20 11:44:18
+20181938,euthanized due to left forelimb fetlock fracture,11,2024-02-17,2024-02-24 09:28:31
+20211022,"Euthanized, right forelimb distal radius fracture",11,2024-03-24,2024-04-08 03:50:06
+20200825,"undetermined, trauma related",11,2024-04-04,2024-04-08 03:51:04
+20201004,"euthanized, left forelimb mid cannon fracture",11,2024-03-16,2024-04-08 03:53:26
+20152799,"euthanized, left forelimb mid cannon fracture",11,2024-03-16,2024-04-08 03:54:38
+20200603,collided with another horse during exercise,11,2024-03-16,2024-04-08 03:56:23
+20181372,died due to racing related injuries suffered on the 23/03/2024,11,2024-03-29,2024-04-08 03:58:37
+20211608,Euthanized due to being unable to stand following injury while racing on the 14/04/2024,11,2024-04-17,2024-04-17 08:19:51
+20191572,"Collapsed and died in stable, history of collapsing in the week prior*",11,2024-04-20,2024-04-20 08:03:37
+20160637,Euthanized due to disarticulation of both front fetlock joints,11,2024-05-04,2024-05-04 13:29:44
+20180855,Euthanized due to laminitis in both forelimbs,11,2024-05-07,2024-05-07 07:21:01
+20210252,Euthanized due to injuries suffered (right forelimb carpal fracture) in racing on the 23/05/2024,11,2024-05-24,2024-05-24 03:32:48
+20202632,colic,11,2024-05-24,2024-05-24 03:33:15
+20161412,Colic since the 23/05/2024,11,2024-05-25,2024-05-25 13:13:32
+20191072,Euthanized due to suspected sesamoid fracture of the right forelimb,11,2024-05-25,2024-05-27 06:34:19
+20201488,sudden death during exercise,11,2024-06-01,2024-06-01 13:21:55
+20201271,found dead in stall,11,2024-06-14,2024-06-14 05:31:26
+20171132,colic,11,2024-06-10,2024-06-14 05:38:02
+20202814,"found dead in stall, likely due to sepsis (infected right knee)",11,2024-06-15,2024-06-17 05:43:47
+99990936,euthanized due to left forelimb mid cannon fracture,11,2024-06-15,2024-06-17 05:58:27
+20202298,Euthanized due to complications following castration,11,2024-02-21,2024-06-17 06:15:14
+20172871,colic,11,2024-06-19,2024-06-20 06:11:27
+20152173,found dead in stall,11,2024-06-22,2024-07-29 05:40:26
+20201706,euthanized due to laminitis (stepped out of hoof) in the right hindlimb,11,2024-07-02,2024-07-29 05:41:41
+20190479,colic,11,2024-07-28,2024-07-29 05:42:11
+20190762,found dead in stall (hx of torticollis the day before),11,2024-07-20,2024-07-29 05:44:58
+20202869,sudden death in exercise (got away and galloped 3 rounds),11,2024-03-26,2024-07-31 07:23:06
+99990878,euthanized due to left forelimb pastern fracture,11,2024-08-17,2024-08-21 04:40:45
+20192933,Head trauma following episode of colic,11,2024-08-21,2024-08-22 07:59:24
+20210823,Sudden death after exercise,11,2024-08-24,2024-08-24 03:43:43
+20151136,euthanized due to laminitis in both forelimbs,11,2024-09-24,2024-10-15 03:55:39
+20202596,found dead in stall,11,2024-09-17,2024-10-15 03:56:22
+20190691,colic,11,2024-09-07,2024-10-15 03:57:06
+20190393,colic,11,2024-09-01,2024-10-15 03:57:55
+20211840,colic,11,2024-09-01,2024-10-15 03:59:29
+20191032,"found dead, being treated for respiratory infection",11,2024-09-12,2024-10-15 04:01:06
+20203457,colic,11,2024-09-09,2024-10-15 04:09:23
+20211315,euthanized due to being unable to stand after head trauma on the 6/10/2024,11,2024-10-07,2024-10-15 04:10:52
+20130673,Colic,11,2024-10-18,2024-10-19 04:04:45
+20211926,Euthanized due to pelvic injured suffered while racing,11,2024-10-12,2024-10-19 13:18:08
+20210030,Euthanized due to left forelimb fetlock fracture,11,2024-10-19,2024-10-19 13:18:55
+20203462,Euthanized due to left forelimb scapular fracture,11,2024-10-27,2024-10-28 05:48:32
+20212594,Sudden death during exercise,11,2024-12-02,2024-12-02 04:11:53

@@ -99,10 +99,9 @@
     "title_case_column_names_enabled": false,
     "sql_query": "SELECT * FROM horse_deaths",
     "enum_columns": [],
-    "exclude_columns": ["updated_at"],
+    "exclude_columns": ["id", "updated_at"],
     "title_case_columns": [],
     "rename_columns": {
-      "id": "Id",
       "horse_id": "HorseId",
       "death_description": "DeathDescription",
       "vet_id": "VetId",
